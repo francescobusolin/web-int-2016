@@ -373,7 +373,7 @@ $(document).ready(function() {
 </script>
 <script type="text/javascript">
   var gs_channels="default";
-  // Last-updated: 2016-11-25 11:28:13.361
+  // Last-updated: 2016-11-25 11:28:11.540
 gs_channels="marks_and_spencer,trv_hotels,premium_resorts";
 
 </script>
