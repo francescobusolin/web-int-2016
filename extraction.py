@@ -4,69 +4,104 @@ import re
 import time
 import BeautifulSoup
 
-# Questo script scarica e memorizza gli url ricavandoli dai link nel file links
+# this script is used to collect some news links from
+# the archive of the telegraph
 
-# Si ricavano i link dell' archivio
-input = open('other/links','r')
-urls = input.readlines()
-input. close()
+#in the first step we setup the environment creating dirs
+# and initializing some global variables
 
-intermediate_dir = 'other/inter/'
-archive = intermediate_dir + 'archive'
-compressed_urls =  intermediate_dir + "compressed"
+# here we read the references to the archive
+# at the moment there are links to
+# the news from the 1st of November 2014 to the 16th November 2014
+archive_file = open('other/links', 'r')
+urls = archive_file.readlines()
+archive_file. close()
+# here we setup all the globally used references
+INTERMEDIATE_DIR = 'other/inter/'
+ARCHIVE_DIR = INTERMEDIATE_DIR + 'archive'
+COMPRESSED_URLS = INTERMEDIATE_DIR + "compressed"
 
-repo_dir = 'repo'
-pages_dir = repo_dir + '/pages'
-urls_dir = repo_dir + "/urls"
-news_dir = repo_dir + '/news'
+REPO_DIR = 'repo'
+PAGES_DIR = REPO_DIR + '/pages'
+URLS_DIR = REPO_DIR + "/urls"
+NEWS_DIR = REPO_DIR + '/news'
 
-if( not os.path.isdir(intermediate_dir)):
+REMOTE_BASE = 'http://www.telegraph.co.uk'
+
+# here we create (if not present) every directory used later
+if(not os.path.isdir(INTERMEDIATE_DIR)):
     print 'creating dir "intermediate"'
-    os.mkdir(intermediate_dir)
+    os.mkdir(INTERMEDIATE_DIR)
 
-if(not os.path.isdir(archive)):
+if(not os.path.isdir(ARCHIVE_DIR)):
     print 'creating dir "archive"'
-    os.mkdir(archive)
+    os.mkdir(ARCHIVE_DIR)
 
-if (not os.path.isdir(compressed_urls)):
+if (not os.path.isdir(COMPRESSED_URLS)):
     print 'creating dir "urls archive"'
-    os.mkdir(compressed_urls)
+    os.mkdir(COMPRESSED_URLS)
 
-if (not os.path.isdir(repo_dir)):
+if (not os.path.isdir(REPO_DIR)):
     print 'creating dir "repo"'
-    os.mkdir(repo_dir)
+    os.mkdir(REPO_DIR)
 
-if (not os.path.isdir(urls_dir)):
+if (not os.path.isdir(URLS_DIR)):
     print 'creating dir "urls"'
-    os.mkdir(urls_dir)
+    os.mkdir(URLS_DIR)
 
-if (not os.path.isdir(news_dir)):
+if (not os.path.isdir(NEWS_DIR)):
     print 'creating dir "news"'
-    os.mkdir(news_dir)
+    os.mkdir(NEWS_DIR)
 
-#print urls
-# per ogni url se presente lo apro altrimenti lo scarico
-# attendo un secondo tra un download e l'altro
+# here we download every page from the archive and we store them in our
+# archive directory, we also wait 1 second between each download
 i = j = 0
 for url in urls:
-    # mantengo solo i caratteri non speciali
     filename = re.sub('[^a-zA-Z0-9]+', '-', url)
-    # scarico la pagina solo se non  presente
-    download_path = os.path.join(archive, filename)
-    print download_path
+    download_path = os.path.join(ARCHIVE_DIR, filename)
+    #print download_path
     if not os.path.exists(download_path):
         try:
             urllib.urlretrieve(url, download_path)
             time.sleep(1)
         except IOError:
-            print 'Errore in File'
+            print 'Error in File'
             j += 1
         print "Done single download " + str(i)
     i += 1
-print 'Errori in lettura: ' + str(j)
+print 'Reading Errors: ' + str(j)
 
 
-inputs = os.listdir(archive)
+news_links = []
+# here we extract the useful links from each page
+# after examinating the structure of nthe web pages
+# we know that the links useful to us are inside a 'href'
+# property and they are like'/news/<name of article>.html'
+for line in os.listdir(ARCHIVE_DIR):
+    with open(os.path.join(ARCHIVE_DIR, filename)) as f:
+        page = f.read()
+        f.close()
+    soup = BeautifulSoup.BeautifulSoup(page)
+    #print page
+    hrefs = []
+    links =  soup.findAll('a',href = True)
+    for link in links:
+        hrefs.append(link['href'])
+    for href in hrefs:
+        str(href)
+        if(href.startswith('/news')):
+            news_links.append(REMOTE_BASE + href)
 
-for input in inputs:
-    print input
+print 'collected ' + str(len(news_links)) + ' links'
+# after collecting all the links we store them in a unique file
+# in the urls directory
+f = open(os.path.join(URLS_DIR + '/urls'), 'w')
+for url in news_links:
+    f.write(url+'\n')
+
+f.close()
+print 'wrote all links into the file ' + URLS_DIR + '/urls'
+
+# this is the end of the extraction script
+
+
