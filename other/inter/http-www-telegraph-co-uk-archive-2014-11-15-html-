@@ -1,0 +1,2432 @@
+<!--[if IE ]>
+<!doctype html>
+<![endif]-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<script src="//cdn.optimizely.com/js/1425218314.js"></script>
+        <script type="text/javascript">
+        // <![CDATA[
+        for(var i = 0; i < optimizely["activeExperiments"].length; i++){
+            var expid = optimizely["activeExperiments"][i];
+            var experimentname = optimizely.data.experiments[expid].name;
+            var variationname = optimizely.variationNamesMap[expid];
+            optimizely.$("head").prepend("<meta name=\"DCSext.opt\" content=\"" + experimentname + "-" + variationname +"\" />");
+        }
+        // ]]>
+    </script>
+<script type="text/javascript">
+           /* EPOCH time at the start of the page */
+
+           /*As IE8 doest support Date.now() functionality,using the diffrent one*/
+             if (!Date.now) {
+                    Date.now = function now() {
+                      return new Date().getTime();
+                   };
+              }
+
+              var pageStartTime = Date.now();
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>News Archive - News, sport and travel archive - Telegraph</title>
+
+
+
+<meta name="description" content="The telegraph archive is an invaluable tool for getting national news and global news and information, both past and present." />
+
+<meta name="keywords" content="Archive, Archive, archive news, Todays news, News, news, breaking news, latest news, news latest breaking stories, online news, world news, uk news, local news, celebrity news, todays sport news, todays travel news, latest travel news, the daily telegraph, telegraph uk news, Sunday telegraph, telegraph news, daily telegraph news, telegraph.co.uk, business news, property news, sport news, entertainment news, motoring news, health news, technology news, news blog, obituary, past news" />
+
+<meta name="tmgads.zone" content="archive" />
+<meta name="tmgads.channel" content="archive" />
+<meta name="tmgads.section" content="archive" />
+
+<input type="hidden" value="section" id="pageType" name="pageType" />
+<input type="hidden" value="index" id="templateName" name="templateName" />
+<meta name="tmgads.pagetype" content="index" />
+<meta name="tmgads.level" content="1" />
+<meta name="tmgads.otherdata" content="" />
+
+
+
+<meta name="tmgads.geo" content="IT" />
+
+
+
+
+
+<meta name="DCSext.akamigeo" content="IT" />
+
+
+
+<meta name="section-id" content="2339" />
+
+<meta name="GSAMLC" content="archive" />
+<meta name="GSAChannel" content="archive" />
+
+<meta name="GSAChannelName" content="Archive" />
+
+<meta name="GSASectionUniqueName" content="archive" />
+
+<meta name="robots" content="noarchive,noodp" />
+	<meta name="google" content="nositelinkssearchbox" />
+
+<meta property="fb:app_id" content="120118784736295" />
+<meta property="fb:admins" content="686953094,531239902,100002344351237" />
+
+<meta property="og:description" content="The telegraph archive is an invaluable tool for getting national news and global news and information, both past and present." />
+<meta property="og:site_name" content="Telegraph.co.uk" />
+<meta property="og:title" content="News Archive - News, sport and travel archive" />
+<meta property="og:url" content="http://www.telegraph.co.uk/archive/" />
+
+<meta property="og:image" content="http://www.telegraph.co.uk/template/ver1-0/i/telegraphFacebook.jpg" />
+<meta property="og:type" content="author" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Telegraph" />
+<meta name="twitter:image:src" content="http://www.telegraph.co.uk/template/ver1-0/i/telegraphFacebook.jpg">
+	<link rel="canonical" href="http://www.telegraph.co.uk/archive/" />
+
+<link rel="stylesheet" type="text/css" href="/template/ver1-0/css/screen.css" media="screen" />
+
+<!--[if gt IE 9]><!-->
+<script type="text/javascript">
+var logo = function(param) {
+        document.onreadystatechange = function () {
+                if (document.readyState == "interactive") {
+                        document.getElementById("logo").src = param;
+                }
+        }
+}
+</script>
+<![endif]-->
+
+<!--[if lt IE 10]><!-->
+<script type="text/javascript">
+var logo = function(param) {
+        document.onreadystatechange = function () {
+                        document.getElementById("logo").src = param;
+        }
+}
+</script>
+<![endif]-->
+
+<script type="text/javascript"> logo("/template/ver1-0/i/thetelegraph_344.gif"); </script>	
+	<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/template/ver1-0/css/ie6.css" media="screen" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="/template/ver1-0/css/ie7.css" media="screen" />
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed for Archive articles - Telegraph.co.uk" href="http://www.telegraph.co.uk/archive/rss" />
+
+<!-- Opta widget v2  -->
+	<script src="http://widget.cloud.opta.net/2.0/js/widgets.opta.js" id="myscript" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var tmgOptaCallback = function() {
+            //Add logic below that will be executed once the opta widget loads
+            $('.standings-container tr:even').addClass('odd'); //even rows for tables
+            $('.standings-container tr:odd').addClass('even'); //odd rows for tables
+         };
+
+        // <![CDATA[
+        var _optaCallbacks;
+
+        if (_optaParams) {
+            _optaCallbacks = _optaParams.callbacks;
+        }
+
+        if (_optaCallbacks) {
+            if( _optaCallbacks.indexOf(tmgOptaCallback) < 0) {
+            _optaCallbacks.push(tmgOptaCallback);
+            }
+        } else {
+            _optaCallbacks = [tmgOptaCallback];
+        }
+
+        var _optaParams = {
+            custID: 'ea84a6c1e3333c9d011be831766d51de',
+            anim:   'none',
+            language: 'en_GB',
+            timezone: 0,
+            callbacks: _optaCallbacks
+        };
+        // ]]>
+    </script>
+
+    <script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        
+            var _optaCallbacks = _optaParams.callbacks;
+
+            if (_optaCallbacks) {
+                if (_optaCallbacks.indexOf(optaTeamLinkingCallback) < 0) {
+                    _optaCallbacks.push(optaTeamLinkingCallback);
+                }
+            } else {
+                _optaCallbacks = [optaTeamLinkingCallback];
+            }
+
+            _optaParams.callbacks = _optaCallbacks;
+        </script>
+<script type="text/javascript" src="/template/ver1-0/js/jquery-1.4.2.min.js"></script>
+
+<script language="Javascript" type="text/javascript" src="/template/ver1-0/js/jquery.cookie.js"></script>
+
+<script src='//d3c3cq33003psk.cloudfront.net/opentag-35657-106653.js'></script>
+		<meta name="DCSext.MLC" content="/archive" />
+	<meta name="DCSext.Channel" content="archive" />
+					<meta name="WT.cg_n" content="archive" />
+						<meta name="DCSext.Content_Type" content="Index" />
+    <meta name="DCSext.Level" content="1" />
+		
+	 
+
+
+<meta name="DCSext.cf" content="0"/>
+		<meta name="DCSext.cn" content="0"/>
+		<meta name="DCSext.cd" content="0"/>
+	<script src="/template/ver1-0/js/webtrends/WTDcsVid.js" type="text/javascript"></script>
+<script src="/template/ver1-0/js/webtrends/LIVE/WTID.js" type="text/javascript"></script>
+
+<script>
+window.webtrendsAsyncInit=function(){
+    var dcs=new Webtrends.dcs().init({
+        dcsid:"dcsshgbi400000gscd62rrg43_4o2o",
+        domain:"webtrends.telegraph.co.uk",
+        timezone:0,
+        adimpressions:true,
+        adsparam:"WT.ac",
+        offsite:false,
+        download:true,
+        downloadtypes:"xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip",
+        metanames:"DCSext.MLC, DCSext.source, DCSext.Category, DCSext.Genre, DCSext.Channel, DCSext.imageNo, DCSext.GalleryType, DCSext.Content_Type, DCSext.Level, DCSext.author, DCSext.articleFirstPublished, DCSext.articleId, DCSext.productProvider, DCSext.productName, DCSext.EA_Search_Type, DCSext.EA_Search_Engine, DCSext.EA_Search_Phrase, DCSext.oss, DCSext.ossType, DCSext.cf, DCSext.cn, DCSext.cd, DCSext.pd,DCSext.cmsSect",        
+        fpcdom:".telegraph.co.uk",
+        plugins:{
+            hm:{src:"/template/ver1-0/js/asyncwebtrends/webtrends.hm.js",hmurlparams:"frame,image"},
+            qbert: { src:"/template/ver1-0/js/asyncwebtrends/qbert-wtplugin.js" }
+        }
+        });
+    if ($.cookie("tmg_subs") != null){
+    	var ts = $.parseJSON($.cookie("tmg_subs"));
+        dcs.DCSext.location = ts.location;
+    	dcs.DCSext.trialDescription =ts.trialDescription;
+	    dcs.DCSext.subscriptionType = ts.subscriptionType;
+	    dcs.DCSext.flowType = ts.flowType;
+	    dcs.DCSext.productType = ts.productType;
+	    dcs.DCSext.serviceId = ts.serviceId;
+	    dcs.DCSext.servicePriceId = ts.servicePriceId;
+	
+	    dcs.DCSext.discountVoucher = ts.discountVoucher;
+	    dcs.DCSext.partnerName = ts.partnerName;
+	    dcs.DCSext.currentPromoName = ts.currentPromoName;
+	    dcs.DCSext.sourcePromoName = ts.sourcePromoName;
+	    dcs.DCSext.promoType = ts.promoType;
+	    dcs.DCSext.tCode = ts.tCode;
+	    dcs.DCSext.status = ts.status == true  && ts.acquisitionCompleted == true ? 'Active':'Inactive';
+
+   }
+   //if( /Android|webOS|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { dcs.DCSext.platform="tablet";}    
+   //dcs.track();
+
+};
+(function(){
+    var s=document.createElement("script"); s.async=true; s.src="/template/ver1-0/js/asyncwebtrends/webtrends.js";
+    var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+}());
+</script>
+
+<script src="//assets.adobedtm.com/71dcbb11123ce6b2e1ce4d47fd79a130aad3fc95/satelliteLib-1c3d0c3b3e3b492ca058647975687e6b485ad5c8.js"></script>
+    <script type="text/javascript">
+//Events tracking for Google Analytics
+function trackGoogle() {
+try {var pageTracker = _gat._getTracker("UA-7226372-1");pageTracker._trackPageview();} catch(err) {}
+}
+
+//External links tracking through Google Analytics
+function isLinkExternal(link) {
+    var r = new RegExp('^https?://(?:www.)?' + location.host.replace(/^www./, ''));
+        return !r.test(link);
+}
+$(document).ready(function() {
+    $(document).bind('click', function(e) {
+        var target = (window.event) ? e.srcElement : e.target;
+        while (target) {
+            if (target.href) break;
+            target = target.parentNode;
+        }
+        if (!target || !isLinkExternal(target.href)) return true;
+        var link = target.href;
+        link = '/outgoing/' + link.replace(/:\/\//, '/');
+        _gaq.push(['_trackPageview', link]);
+    });
+});
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7226372-1']);
+  _gaq.push(['_setDomainName', 'telegraph.co.uk']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+  var gs_channels="default";
+  // Last-updated: 2016-11-24 13:06:17.174
+gs_channels="marks_and_spencer,trv_hotels,premium_resorts";
+
+</script>
+<script type="text/javascript">
+    // <![CDATA[
+  var qcSegs = '';
+  var qcResults = function(qc){
+    for (var i=0;i<=qc.segments.length-1;i++){
+      if(qc.segments[i].id != 'D' && qc.segments[i].id != 'T') qcSegs += ';qc='+qc.segments[i].id;
+    }
+  }
+    // ]]>
+</script>
+<script type="text/javascript" src="http://pixel.quantserve.com/api/segments.json?a=p-gyXAHFFgnNQDj&callback=qcResults"></script>
+
+<script src="http://s.telegraph.co.uk/toolbar/disqus_parameters_prod.js" type="text/javascript" ></script>
+
+<link rel="stylesheet" type="text/css" href="/template/utils/ooyala/styles/styles.css" media="screen" />
+	<script type="text/javascript" src="/template/utils/ooyala/scripts/stepcarousel.js"> </script>
+<div bucket-id="mpu">
+</div><link href="http://cdn.inskinmedia.com/isfe/4.1/css/base.css" type="text/css" rel="stylesheet" />
+        <!--[if lt IE 7]><link href="http://cdn.inskinmedia.com/isfe/4.1/css/base-ie6.css" type="text/css" rel="stylesheet" /><![endif]-->
+
+        <script type="text/javascript" src="http://cdn.inskinmedia.com/isfe/4.1/js/base/api/telegraph.js">
+        </script>
+        <!-- <script type="text/javascript" src="http://cdn.inskinmedia.com/isfe/4.1/js/base/api/telegraph.js"></script> -->
+	<script src='http://player.ooyala.com/v3/7dfd98005dba40baacc82277f292e522?platform=html5-fallback'></script>
+<script src="/template/ver1-0/js/ooyala.js" type="text/javascript"></script>
+<script src="/template/ver1-0/js/youtube.js" type="text/javascript"></script>
+<script type="text/javascript">
+    document.domain = "telegraph.co.uk";
+</script>
+<script language="Javascript" type="text/javascript" src="/template/ver1-0/js/ajax.js"></script>
+
+<script language="Javascript" type="text/javascript" src="/template/ver1-0/js/commWidget.js"></script>
+
+
+<!-- Begin KRUX Digital Control Tag for The Telegraph -->
+<!-- End KRUX Digital Control Tag for The Telegraph -->
+
+
+		<script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script>
+<!-- Begin comScore Tag -->
+<script>
+	var _comscore = _comscore || [];
+	_comscore.push({
+		c1 : "2",
+		c2 : "6035736"
+	});
+	(function() {
+		var s = document.createElement("script"), el = document
+				.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb"
+				: "http://b")
+				+ ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+</script>
+<noscript>
+	<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035736&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+</head>
+
+<body class="archive" onload="startTrigger();">
+	<div id="fb-root"></div>
+
+<!-- invitationUrl contains the baseUrl for the invitation(paywall). The whole url is completed by the esi tags -->
+<script type="text/javascript">
+		var subsInfo = new Object();
+		subsInfo.channel =  $('meta[name="DCSext.Channel"]').attr("content");
+		if(subsInfo.channel==undefined){subsInfo.channel='';}
+		subsInfo.mlc = $('meta[name="DCSext.MLC"]').attr("content");
+		if(subsInfo.mlc==undefined){subsInfo.mlc='';}
+		subsInfo.category = $('meta[name="DCSext.Category"]').attr("content");
+		if(subsInfo.category==undefined){subsInfo.category='';}
+		subsInfo.level = $('meta[name="DCSext.Level"]').attr("content");
+		if(subsInfo.level==undefined){subsInfo.level='';}
+		subsInfo.author = $('meta[name="DCSext.author"]').attr("content");
+		if(subsInfo.author==undefined){subsInfo.author='';}
+		subsInfo.content_type = $('meta[name="DCSext.Content_Type"]').attr("content");
+		if(subsInfo.content_type==undefined){subsInfo.content_type='';}
+		subsInfo.articleId = $('meta[name="DCSext.articleId"]').attr("content");
+		if(subsInfo.articleId==undefined){subsInfo.articleId='';}
+		var subsJson = JSON.stringify(subsInfo);
+		$.cookie("tmg_subs_referer",subsJson, { path: '/', domain: 'telegraph.co.uk'});
+		var inviteWTUrlSuffix='?channel='+ subsInfo.channel+'&mlc='+subsInfo.mlc+'&category='+ subsInfo.category+'&level='+subsInfo.level+'&author='+subsInfo.author+'&content_type='+subsInfo.content_type+'&articleId='+subsInfo.articleId;
+		
+		<!-- default inviteUrl value is UK-->
+		var inviteUrl = "" + '/subscriptions/invitation/';
+		
+		
+			
+				
+					var inviteUrl = "" + "/subscriptions/invitation-intl/";
+				
+			
+		
+		
+				
+				
+				
+			
+		var plink = "http://www.telegraph.co.uk/template/ver1-0/templates/fragments/common/toolBar-js.jsp";
+	</script>
+	<script src="" type="text/javascript" ></script>
+	<script src="http://s.telegraph.co.uk/toolbar/js/tmgMenu.js" type="text/javascript" ></script>
+<!--[if lte IE 6]>
+<div id="ieLteSix">
+	<div class="ieLteSixBanner">
+		<table cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="ieLteSixLeft">
+						<p class="ieFirstP">We no longer check to see whether Telegraph.co.uk displays properly in Internet Explorer version 6 or earlier.</p>
+						<p class="ieSecondtP">To see our content at its best we recommend <a href="/browser-support/">upgrading if you wish to continue using IE or using another browser such as Firefox, Safari or Google Chrome.</a></p>
+					</td>
+					<td valign="top" class="ieLteSixRight">
+						<a href="#" id="ieX"><img width="20" height="20" border="0" alt="Hide this banner" src="/template/ver1-0/i/ieX.gif"></a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<script language="Javascript" type="text/javascript" src="/template/ver1-0/js/ieSix.js"></script>
+<![endif]-->
+
+<a name="top"></a>
+
+<div class="hidden">
+	<p>Accessibility links</p>
+	<ul>
+	<li><a href="#topstories">Skip to content</a></li>
+		<li><a href="#mainsections">Skip to navigation</a></li>
+	</ul>
+</div><div id="tmglSite">
+	<div class="printLogo"><img src="/template/ver1-0/i/telegraph_print_190.gif" width="190" height="35" /></div>
+
+	<div id="tmglHeader" class="">
+	<div id="tmglBrandLarge">
+			<a href="/">
+					<div id="brand">Telegraph.co.uk</div></a>
+			<div id="topBarRightContainer">
+				<div id="searchBar">
+					<div id="searchBlock">
+				<form name="tg_search" id="tg_search" method="get" action="/search/">
+					<input type="text" class="searchBox google" name="queryText" value="" size="19" tabindex="1"  />
+					<input type="submit" class="formSubmit" tabindex="2" id="go" name="Search" value="" alt="Search" />
+				</form>
+				<div class="cl"></div>
+			</div>
+		</div>
+				<div id="tmgTopBar">
+				<div id="tmglTopRight" class="tmgTopBarDate">
+					<div id="tmglLasUpdatedDateFeed">
+	<p>
+		Thursday 24 November 2016</p>
+</div>
+
+</div>
+			</div></div>
+			
+			<div class="cl"></div>
+		</div>
+		<div class="cl"></div>
+	</div>
+<script type="text/javaScript">
+/* EPOCH time at the  end of Header */
+var tmgHeaderTimerEnd=Date.now();
+</script>
+<div id="tmglMenu">
+	<div id="tmglPriExWrap">
+		<div id="tmglPrimaryNav" class="activeNav">
+			<div class="access"><a name="mainsections"></a></div>
+	<ul class="mainNav">
+		<li class="first styleTen"><a href="http://www.telegraph.co.uk/">Home</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/telegraphtv/">Video</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/news/">News</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/news/worldnews/">World</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/sport/">Sport</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/finance/">Business</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/finance/personalfinance/">Money</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/comment/">Comment</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/culture/">Culture</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/travel/">Travel</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/lifestyle/">Life</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/women/">Women</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/fashion/">Fashion</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/luxury/">Luxury</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/technology/">Tech</a></li>
+							<li class="styleTen"><a href="http://www.telegraph.co.uk/film">Film</a></li>
+							</ul></div>
+		<div id="tmglExtraNav">
+	<ul class="extraNav">
+		</ul>
+	<div class="cl"></div>
+</div> 
+<div class="cl"></div>
+	</div>
+
+	<div id="tmglSecondNav" class="nonActiveNav noItems styleTen">
+				</div>
+		<div id="tmglBannerAd">
+					<div class="adbanner" align="center">
+						<div class="access">Advertisement</div>
+<div class="adbanner" align="center">
+	<div id="banner" class="InSkinHide">
+		<div bucket-id="mpu">
+<script type="text/javascript">
+	document.write(tmgAdsBuildAdTag("ban", "970x250,970x90,940x250,728x90,468x60", "adj", "", 2));</script>
+	</div></div>
+</div>
+
+
+
+
+
+
+</div>
+				</div>
+				<div id="tmglCrumbtrail">
+		<ol>
+			<li class="first"><a href="/">Home</a><span>&raquo;</span></li>
+			<li class="styleTen"><a href="http://www.telegraph.co.uk/archive/">Archive</a></li></ol>
+		<div class="cl"></div>
+	</div>
+</div>
+
+<div id="tmglBody">
+	<a name="top"></a>
+
+<div id="tmglSeoHeader">
+	<div class="twoThirds gutter">
+		<h1>15 November 2014 Archive</h1>
+	</div>
+	<div class="cl"></div>
+</div>
+
+<div class="twoThirdsThird2 gutterUnder">
+
+	<div class="twoThirds gutter indexaz">
+	
+		<div class="summary marginUnder">
+					<p>
+						<a href="#News">News</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Finance">Finance</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Motoring">Motoring</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Sport">Sport</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Travel">Travel</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Food and Drink">Food and Drink</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Gardening">Gardening</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Education">Education</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Technology">Technology</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Lifestyle">Lifestyle</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Culture">Culture</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Comment">Comment</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Sponsored">Sponsored</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Women">Women</a>
+								
+									&nbsp;|&nbsp;	
+								<a href="#Men">Men</a>
+								</p>
+				</div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/news/" name="News"><h2>News</h2></a></div> 
+								<div class="summary"><h3><a  href="/news/worldnews/northamerica/usa/11233793/Ebola-doctor-arrives-in-US-for-treatment.html">Ebola doctor arrives in US for treatment</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/terrorism-in-the-uk/11232424/To-fight-terrorism-follow-the-money-and-stop-it.html">To fight terrorism, follow the money &ndash; and stop it</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/terrorism-in-the-uk/11233736/NHS-doctor-flees-UK-to-join-Taliban.html">NHS doctor flees UK to join Taliban</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/finland/11233528/Town-called-Nokia-seeks-a-new-calling.html">Town called Nokia seeks a new calling</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/science/space/11233667/Rosetta-mission-Toppled-Philae-lander-may-yet-find-hint-to-the-mystery-of-life.html">Rosetta mission: Toppled Philae lander may yet find hint to the mystery of life</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/conservative/11233664/Now-fight-the-methadone-industry-that-keeps-addicts-hooked-says-Iain-Duncan-Smith.html">Now fight the methadone industry that keeps addicts hooked, says Iain Duncan Smith</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/islamic-state/11233507/David-Blunkett-attacks-funders-of-terror.html">David Blunkett attacks funders of terror</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/africaandindianocean/mozambique/11233343/The-minister-the-mine-and-the-1300-an-hour-payday.html">The minister, the mine and the £1,300-an-hour payday</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/11232988/Westminster-paedophile-ring-now-where-does-the-investigation-go.html">Westminster 'paedophile ring': now where does the investigation go?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/france/11233627/Why-English-rosbif-is-a-cut-above-the-French.html">Why English rosbif is a cut above the French</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/francois-hollande/11233585/French-kiss-and-tell-Valerie-Trierweilers-book-comes-to-Britain.html">French kiss-and-tell: Valerie Trierweiler&rsquo;s book comes to Britain</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/africaandindianocean/nigeria/11232562/I-try-to-forget-about-the-past-pupil-who-escaped-Nigerias-Chibok-schoolgirl-abduction-tells-of-new-life.html">'I try to forget about the past' - pupil who escaped Nigeria's Chibok schoolgirl abduction tells of new life</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/france/11233538/Frances-driving-test-bureaucracy-keeps-the-young-in-the-slow-lane.html">France&rsquo;s driving test bureaucracy keeps the young in the slow lane</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/ebola/11233548/Sierra-Leone-doctor-with-Ebola-headed-to-US-is-critically-ill.html">Sierra Leone doctor with Ebola headed to US is critically ill</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/11232521/Friends-The-One-where-Ukip-casts-its-shadow.html">Friends: The One where Ukip casts its shadow</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/conservative/11232506/Dont-the-Tories-know-who-they-stand-for.html">Don&rsquo;t the Tories know who they stand for?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/crime/11233481/Boy-10-hit-by-unmarked-police-car.html">Boy, 10, hit by unmarked police car</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/telegraphchristmasappeal/11233400/British-Ebola-doctor-We-can-stop-this-epidemic-of-fear.html">British Ebola doctor: 'We can stop this epidemic of fear'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/SNP/11233496/SNP-name-their-price-abandon-Trident-to-put-Miliband-in-Downing-Street.html">SNP name their price: abandon Trident to put Miliband in Downing Street</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/obituaries/11231451/Larry-Agenbroad-obituary.html">Larry Agenbroad  - obituary</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/russia/11233349/Russian-warplanes-risking-safety-of-European-airliners-says-Nato-chief.html">Russian warplanes risking safety of European airliners, says Nato chief</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/the-pope/11233347/Pope-Francis-denounces-euthanasia-as-sin-against-God.html">Pope Francis denounces euthanasia as 'sin against God'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/russia/11233199/Jens-Stoltenberg-the-new-man-at-Nato-who-must-stand-up-to-Putin-and-his-tanks.html">Jens Stoltenberg: the new man at Nato who must stand up to Putin and his tanks</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/turkey/11233286/Erdogan-claims-Muslims-beat-Columbus-to-the-Americas.html">Erdogan claims Muslims beat Columbus to the Americas</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/celebritynews/11233182/Susan-Boyle-reveals-her-struggle-with-Aspergers-syndrome.html">Susan Boyle reveals her struggle with Asperger's syndrome</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/southamerica/brazil/11233202/Cannibal-gang-baked-victims-into-pies.html">Cannibal gang baked victims into pies</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/middleeast/iran/11233120/Final-effort-in-US-Iran-nuclear-talks-could-settle-35-years-of-enmity-and-help-defuse-Middle-East.html">Final effort in US-Iran nuclear talks could settle 35 years of enmity and help defuse Middle East</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/asia/hongkong/11232950/Hong-Kong-student-leaders-blocked-from-taking-democracy-fight-to-Beijing.html">Hong Kong student leaders blocked from taking democracy fight to Beijing</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/asia/northkorea/11233191/US-spy-chief-reveals-inside-story-of-North-Korea-prisoner-release.html">US spy chief reveals inside story of North Korea prisoner release</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/health/news/11233140/Family-put-home-up-for-sale-to-fund-daughters-cancer-treatment.html">Family put home up for sale to fund daughter's cancer treatment</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/northamerica/usa/11233057/American-Way-It-is-time-to-curb-the-great-American-sugar-rush.html">American Way: It is time to curb the great American sugar rush</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/health/11233097/Polio-campaign-reaches-major-milestone.html">Polio campaign reaches 'major milestone'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/australiaandthepacific/australia/11232905/Just-call-me-Tony-Australia-PM-calls-for-first-name-only-G20-at-barbecue-for-world-leaders.html">Just call me Tony: Australia PM calls for first-name-only G20 at barbecue for world leaders</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/northamerica/usa/11231956/Detroit-economic-recovery-in-a-bankrupt-city.html">Detroit: economic recovery in a bankrupt city</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/science/science-news/11233009/Comet-probe-Philae-shuts-down-but-not-before-transmitting-valuable-secrets.html">Comet probe Philae shuts down, but not before transmitting valuable secrets</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/science/space/11232986/Matt-Taylors-sexist-shirt-and-the-day-political-correctness-officially-went-mad.html">Matt Taylor's sexist shirt and the day political correctness officially went mad</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/vladimir-putin/11232995/Vladimir-Putin-to-leave-G20-early-after-tense-meeting-with-David-Cameron.html">Vladimir Putin to leave G20 early after 'tense' meeting with David Cameron</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/centralamericaandthecaribbean/nicaragua/11232955/Massive-whale-beached-in-Nicaragua-despite-backpackers-rescue-efforts.html">Massive whale beached in Nicaragua despite backpackers' rescue efforts</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/health/news/11232953/Patients-inappropriately-detained-at-crisis-hit-Colchester-Hospital.html">Patients 'inappropriately detained' at crisis-hit Colchester Hospital</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/georgeosborne/11232961/Osborne-to-waive-VAT-on-Band-Aid-ebola-single.html">Osborne to waive VAT on Band Aid ebola single</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/barackobama/11232915/Barack-Obama-confronts-Australia-over-climate-change.html">Barack Obama confronts Australia over climate change</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/science/space/11232913/Rosetta-missions-Philae-lander-may-communicate-again.html">Rosetta mission's Philae lander may communicate again</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/road-and-rail-transport/11232897/Drivers-warned-of-dense-fog-in-North-East-East-Midlands-and-East-Anglia.html">Drivers warned of dense fog in North East, East Midlands and East Anglia</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/germany/angela-merkel/11232868/Angela-Merkel-hits-the-bars-in-Brisbane-ahead-of-G20-sumit.html">Angela Merkel hits the bars in Brisbane ahead of G20 sumit</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/ed-miliband/11231494/Ed-Miliband-is-driving-white-van-man-into-the-arms-of-Ukip.html">Ed Miliband is driving white van man into the arms of Ukip</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/vladimir-putin/11232832/David-Cameron-Putin-is-not-a-man-of-his-word.html">David Cameron: Putin is not a man of his word</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/road-and-rail-transport/11232864/M25-reopens-after-travel-chaos-caused-by-giant-pothole.html">M25 reopens after travel chaos caused by giant pothole</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/david-cameron/11232844/PM-Ukip-Rochester-win-would-be-just-another-notch-for-Nigel-Farage.html">PM: Ukip Rochester win would be 'just another notch' for Nigel Farage</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/weather/11231577/Are-we-about-to-get-drenched-like-last-year.html">Are we about to get drenched like last year?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/prince-harry/11232559/Prince-Harrys-plans-for-Oman-visit-in-disarray-after-Sultan-pulls-out-due-to-ill-health.html">Prince Harry's plans for Oman visit in disarray after Sultan pulls out due to ill health</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/science/dinosaurs/11231863/Worlds-most-complete-stegosaurus-unveiled-by-Natural-History-Museum.html">World's most complete stegosaurus unveiled by Natural History Museum</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/law-and-order/10528365/Lee-Rigby-killers-from-quiet-Christians-to-Islamist-murderers.html">Lee Rigby killers: from quiet Christians to Islamist murderers</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/uknews/scotland/11232346/David-Cameron-facing-rebellion-from-70-Tory-MPs-over-Barnett-formula-vote.html">David Cameron facing rebellion from 70 Tory MPs over Barnett formula vote</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/earth/environment/globalwarming/11231472/Sir-Paul-McCartney-why-I-have-a-beef-with-meat-eating.html">Sir Paul McCartney: why I have a beef with meat-eating</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/barackobama/11232831/Obama-warns-Asian-territorial-rows-could-spiral-into-confrontation.html">Obama warns Asian territorial rows could 'spiral into confrontation'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/al-qaeda/11232830/Navy-Seal-who-shot-bin-Laden-hits-back-at-critics.html">Navy Seal 'who shot bin Laden' hits back at critics</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/asia/indonesia/11232829/Tsunami-warning-issued-after-Indonesia-quake.html">Tsunami warning issued after Indonesia quake</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/science/space/11232827/New-hope-for-Rosetta-mission-after-scientists-reconnect-with-probe.html">New hope for Rosetta mission after scientists reconnect with probe</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/eu/11232826/EUs-Juncker-blames-difference-in-tax-regimes-and-languages-for-scandal.html">EU's Juncker blames difference in tax regimes and languages for scandal</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/worldnews/europe/sweden/11232820/Sweden-releases-mystery-submarine-evidence.html">Sweden releases mystery submarine evidence</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/news/politics/11231614/Welfare-bill-slashed-by-1.6billion.html">Welfare bill slashed by £1.6billion</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/finance/" name="Finance"><h2>Finance</h2></a></div> 
+								<div class="summary"><h3><a  href="/finance/personalfinance/tax/11232501/Bashing-the-rich-isnt-going-to-save-the-British-dream.html">Bashing the rich isn&rsquo;t going to save the 'British dream&rsquo;</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/tax/11233686/How-top-3000-earners-pay-more-tax-than-bottom-9-million.html">How top 3,000 earners pay more tax than bottom 9 million</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/banksandfinance/privateequity/11232532/Quintessentially-hopes-its-fixers-can-fetch-120m.html">Quintessentially hopes its fixers can fetch £120m</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/mediatechnologyandtelecoms/telecoms/11232560/BT-rules-out-sale-of-outsourcing-arm.html">BT rules out sale of outsourcing arm</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/mediatechnologyandtelecoms/11233290/Would-booting-out-relic-continue-BTs-sporting-revival.html">Would booting out relic continue BT's sporting revival?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/mediatechnologyandtelecoms/telecoms/11232599/Facebook-in-talks-with-Avanti-over-Africa-deal.html">Facebook in talks with Avanti over Africa deal</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/11232487/Mike-Ashley-looks-to-add-Kitbag-to-sportswear-empire.html">Mike Ashley looks to add Kitbag to sportswear empire</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/retailandconsumer/11232382/Retail-start-up-launched-by-pop-star-Paul-Youngs-daughter.html">Retail start-up launched by pop star Paul Young's daughter</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/banksandfinance/11232485/Stockbroker-Old-Park-Lane-poised-to-announce-rescue-merger.html">Stockbroker Old Park Lane poised to reveal rescue deal</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/mediatechnologyandtelecoms/media/11232586/Brussels-intervenes-in-row-between-broadcasters-and-pay-TV-groups.html">Brussels intervenes in row between broadcasters and pay-TV groups</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/energy/11233500/Oil-spill-group-secures-2.8m-cash-injection.html">Oil spill group secures £2.8m cash injection</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/investing/buy-to-let/11232631/First-buy-to-let-investment-trust-to-float.html">First buy-to-let investment trust to float</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/retailandconsumer/leisure/11233530/McCalls-easyJet-success-could-catch-the-eye-of-a-retailer.html">McCall's easyJet success could catch the eye of a retailer</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/good-news/11231685/Quarterly-reporting-quietly-comes-to-an-end.html">Quarterly reporting quietly comes to an end</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/banksandfinance/11233241/Waiting-for-a-call-from-Lloyd-Blankfein-How-Goldman-picks-its-partners.html">Waiting for a call from Lloyd Blankfein: How Goldman picks its partners</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/banksandfinance/11231613/This-is-what-stock-trading-used-to-look-like.html">This is what stock trading used to look like</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/energy/oilandgas/11233365/Halliburton-seeks-to-oust-Baker-Hughes-board.html">Halliburton seeks to oust Baker Hughes board</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11232956/What-has-the-National-Lottery-done-for-Britain.html">What has the National Lottery done for Britain?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/retailandconsumer/11233213/Hasbro-and-DreamWorks-end-deal-talks.html">Hasbro and DreamWorks end deal talks</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/markets/11233170/Why-oil-importing-economies-could-become-the-new-BRICS.html">Why oil importing economies could become the new BRICS</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/11233188/The-EU-is-good-for-business-says-Siemens-UK-boss.html">The EU is good for business, says Siemens UK boss</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/economics/11233155/Recovery-The-UKs-economic-revival-is-far-from-secure.html">Recovery? The UK's economic revival is far from secure</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/mediatechnologyandtelecoms/telecoms/11232564/Obama-wades-into-net-neutrality-debate.html">Obama wades into 'net neutrality' debate</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/newsbysector/industry/engineering/11232982/How-Rosetta-comet-mission-is-putting-Space-City-Stevenage-on-the-map.html">How Rosetta comet mission is putting 'Space City' Stevenage on the map</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/comment/citydiary/11232381/Dashwood-Vodafone-boss-Vittorio-Colao-smells-a-rat-at-company-results.html">Dashwood: Vodafone boss Vittorio Colao smells a rat at company results</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/economics/11232512/Godfather-of-Abenomics-Japans-sales-tax-hike-must-be-delayed.html">'Godfather' of Abenomics: Japan's sales tax hike must be delayed</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/markets/questor/11232427/Shares-in-UK-engineer-to-benefit-from-road-building-plans.html">Shares in UK engineer to benefit from road building plans</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/markets/questor/11232419/Aggreko-shares-are-overvalued.html">Aggreko shares are overvalued</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/businessclub/sales/11232365/Meet-the-British-company-clearing-up-the-minefields-of-the-world.html">Meet the British company clearing up the minefields of the world</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/g20-summit/11233070/Barack-Obama-US-economy-cannot-carry-the-world.html">Barack Obama: US economy cannot 'carry the world'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11229525/National-Lottery-winner-Thea-Bristow-I-won-15m-and-invested-in-a-football-club.html">National Lottery winner Thea Bristow: 'I won £15m and invested in a football club'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11228729/Bus-driver-Peter-Lavery-I-won-10m-on-the-lottery-but-my-investment-success-was-like-winning-again.html">Bus driver Peter Lavery: 'I won £10m on the lottery but my investment success was like winning again'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/pensions/11231489/Is-it-worth-ditching-a-final-salary-pension-for-cash.html">Is it worth ditching a final-salary pension for cash?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11231113/National-Lottery-turns-20-meet-the-millionaire-winners.html">It could have been you, but it was them: 20 years of National Lottery winners</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11228920/Tesco-syndicate-Lottery-winners-How-18m-changed-our-lives.html">Tesco syndicate Lottery winners: How £18m changed our lives</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/investing/11230939/DIY-investment-vs-leaving-it-to-the-pros.html">DIY investment vs leaving it to the 'pros'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/pensions/11232223/Older-savers-to-be-handed-credit-cards-for-their-pensions.html">Older savers to be handed credit cards for their pensions</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11229144/National-Lottery-winners-Gareth-and-Catherine-Bull-We-won-40m-but-have-barely-spent-a-penny.html">National Lottery winners Gareth and Catherine Bull: 'We won £40m but have barely spent a penny'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11228421/Lottery-winner-Jane-Cunningham-I-felt-at-some-points-as-though-I-had-committed-a-crime.html">Lottery winner Jane Cunningham: 'I felt at some points as though I had committed a crime&rsquo;</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/property/11228135/Whats-happening-to-Henrys-houses.html">What&rsquo;s happening to Henry&rsquo;s houses?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/finance/personalfinance/11229286/Whats-it-like-to-win-13.8m-when-youre-26.html">What's it like to win £13.8m when you're 26?</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/motoring/" name="Motoring"><h2>Motoring</h2></a></div> 
+								<div class="summary"><h3><a  href="/motoring/car-manufacturers/kia/11229507/Electric-Kia-Soul-EV-tested.html">Electric Kia Soul EV tested</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/motoring/caradvice/honestjohn/11231844/Where-can-I-find-a-small-coupe-cabriolet.html">Where can I find a small coupé-cabriolet?</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/sport/" name="Sport"><h2>Sport</h2></a></div> 
+								<div class="summary"><h3><a  href="/sport/tennis/rogerfederer/11233823/Roger-Federer-fights-back-to-beat-Stan-Wawrinka-and-set-up-ATP-World-Tour-final-with-world-No-1-Novak-Djokovic.html">Roger Federer fights back to beat Stan Wawrinka and set up ATP World Tour final with world No 1 Novak Djokovic</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/tennis/atptour/11233077/Roger-Federer-v-Stan-Wawrinka-ATP-World-Tour-Finals-live.html">Roger Federer v Stan Wawrinka, ATP World Tour Finals: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/players/wayne-rooney/11233541/Wayne-Rooney-shows-golden-touch-on-100th-cap-as-England-beat-Slovenia-in-Euro-2016-qualifier.html">Greatness eludes England's Wayne Rooney on the international stage</a>
+                            </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/11233788/France-29-Australia-26-match-report-Inspired-hosts-take-revenge-on-Wallabies-at-Stade-de-France.html">France 29 Australia 26, match report: Inspired hosts take revenge on Wallabies at Stade de France</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/players/wayne-rooney/11232963/Wayne-Rooney-reveals-how-a-heart-to-heart-with-Coleen-helped-convince-him-to-forget-about-England-retirement.html">Wayne Rooney reveals how a heart-to-heart with Coleen helped convince him to forget about England retirement</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/wales/11233183/Belgium-v-Wales-Manchester-United-assistant-manager-Ryan-Giggs-backing-nation-to-qualify-for-major-finals.html">Belgium v Wales: Manchester United assistant manager Ryan Giggs backing nation to qualify for major finals</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/scotland/11233157/How-manager-Gordon-Strachan-turned-the-tide-of-Scotlands-long-decline.html">How manager Gordon Strachan turned the tide of Scotland&rsquo;s long decline</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/england/11231975/Scotland-v-England-Roy-Hodgson-ready-to-make-wholesale-changes-as-oldest-fixture-loses-its-star-billing.html">Scotland v England: Roy Hodgson ready to make wholesale changes as oldest fixture loses its star billing</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/world-cup/11233205/World-Cup-bid-report-Sponsors-must-hit-Fifas-wretched-parasites-where-it-hurts-in-the-pocket.html">Sponsors must hit Fifa's parasites where it hurts &ndash; in their pockets</a>
+                            </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/world-cup/11233205/World-Cup-bid-report-Sponsors-must-hit-Fifas-wretched-parasites-where-it-hurts-in-the-pocket.html">World Cup bid report: Sponsors must hit Fifa's wretched parasites where it hurts &ndash; in the pocket</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/motorsport/formulaone/lewishamilton/11231251/Lewis-Hamilton-has-a-second-world-title-in-sight-and-is-the-best-driver-of-his-era-so-why-does-Britain-not-love-him.html">Lewis Hamilton has a second world title in sight and is the best driver of his era - so why does Britain not love him?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/othersports/boxing/11231362/How-working-nightclub-doors-at-15-led-Tony-Bellew-to-the-fight-of-his-life-against-Nathan-Cleverly.html">How working nightclub doors at 15 led Tony Bellew to the fight of his life against Nathan Cleverly</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/11233412/France-v-Australia-live.html">France v Australia: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/players/wayne-rooney/11231308/Sir-Alex-Ferguson-had-to-shout-at-Wayne-Rooney-to-stop-training-thats-how-dedicated-he-is-to-football.html">Sir Alex Ferguson had to shout at Wayne Rooney to stop training &ndash; that's how dedicated he is to football</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/motorsport/formulaone/11233125/Abu-Dhabi-Grand-Prix-2014-Lowdown-to-title-showdown.html">Abu Dhabi Grand Prix 2014: Lowdown to title showdown</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/premiership/11233717/Bath-23-Newcastle-Falcons-14-match-report-Mike-Ford-backs-Jonathan-Joseph-for-England-call.html">Bath 23 Newcastle Falcons 14, match report: Mike Ford backs Jonathan Joseph for England call</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/england/11233483/England-vs-South-Africa-Toiling-half-backs-Owen-Farrell-and-Danny-Care-lose-direction-in-defeat-at-Twickenham.html">England vs South Africa: Toiling half-backs Owen Farrell and Danny Care lose direction in defeat at Twickenham</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/world-cup/11233160/England-2018-bid-official-claims-Fifa-knew-about-controversial-payment-in-advance.html">England 2018 bid official claims Fifa knew about controversial payment in advance</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/england/11233527/England-head-coach-Stuart-Lancaster-insists-Red-Rose-are-on-track-for-Rugby-World-Cup-despite-South-Africa-defeat.html">England head coach Stuart Lancaster insists Red Rose are on track for Rugby World Cup despite South Africa defeat</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/11233654/Scotland-confirm-promise-of-their-progress-as-rusty-Dan-Carter-labours-on-All-Blacks-return.html">Scotland confirm promise of their progress as rusty Dan Carter labours on All Blacks return</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/tennis/novakdjokovic/11233447/Novak-Djokovic-taken-to-three-sets-by-Kei-Nishikori-in-ATP-World-Tour-Finals-semi-final-at-Londons-02-Arena.html">Novak Djokovic taken to three sets by Kei Nishikori in ATP World Tour Finals semi-final at London's 02 Arena</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/horseracing/11233360/Sam-Twiston-Davies-hands-Paul-Nicholls-two-winners-as-Caid-Du-Berlais-wins-Paddy-Power-Gold-Cup.html">Sam Twiston-Davies hands Paul Nicholls two winners as Caid Du Berlais wins Paddy Power Gold Cup</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/england/11233573/England-v-Slovenia-Five-things-we-learned-from-3-1-win-in-Euro-2016-qualifier-at-Wembley-Stadium.html">England v Slovenia: Five things we learned from 3-1 win in Euro 2016 qualifier at Wembley Stadium</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/scotland/11233605/Scotland-16-New-Zealand-24-autumn-international-Heartbreak-for-Scots-as-late-Jeremy-Thursh-try-seals-All-Black-win.html">Scotland 16 New Zealand 24, autumn international: Heartbreak for Scots as late Jeremy Thursh try seals All Black win</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/11233066/Scotland-v-New-Zealand-live.html">Scotland v New Zealand: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/players/wayne-rooney/11233541/Wayne-Rooney-shows-golden-touch-on-100th-cap-as-England-beat-Slovenia-in-Euro-2016-qualifier.html">Wayne Rooney shows golden touch on 100th cap as England beat Slovenia in Euro 2016 qualifier</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/euro-2016/11233042/England-vs-Slovenia-Euro-2016-qualifying-live.html">England v Slovenia: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/othersports/squash/11233266/World-Squash-Championships-2014-Nick-Matthew-gets-title-defence-off-to-sound-start-in-Doha.html">World Squash Championships 2014: Nick Matthew gets title defence off to sound start in Doha</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/euro-2016/11233380/England-3-Slovenia-1-match-report-Roy-Hodgsons-side-retain-100-per-cent-win-record-in-Euro-2016-qualifiers.html">England 3 Slovenia 1, match report: Roy Hodgson's side retain 100 per cent win record in Euro 2016 qualifiers</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/euro-2016/11233390/England-v-Slovenia-player-ratings-Wayne-Rooney-marks-100th-cap-by-edging-closer-to-goalscoring-record.html">England v Slovenia, player ratings: Wayne Rooney marks 100th cap by edging closer to goalscoring record</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/england/11233406/England-are-becoming-plagued-with-doubt-about-their-ability-to-overcome-the-great-powers-from-the-south.html">England are becoming plagued with doubt about their ability to overcome the great powers from the south</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/premiership/11233324/Sale-36-London-Irish-8-match-report-Driving-maul-comes-up-trumps-for-Sharks-in-thrashing-of-Exiles.html">Sale 36 London Irish 8, match report: Driving maul comes up trumps for Sharks in thrashing of Exiles</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/ireland/11233216/Ireland-insist-they-will-not-underestimate-minnows-Georgia-despite-weakened-XV-ahead-of-big-Australia-Test.html">Ireland insist they will not underestimate minnows Georgia despite weakened XV ahead of big Australia Test</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/golf/11233259/Ian-Poulters-inexcusable-error-keeps-alive-race-to-become-top-European-golfer.html">Ian Poulter's 'inexcusable' error keeps alive race to become top European golfer</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/manchester-united/11232851/Manchester-United-news-Anders-Lindegaard-set-for-rare-outing-after-David-de-Gea-suffers-dislocated-finger.html">Manchester United news: Anders Lindegaard set for rare outing after David de Gea suffers dislocated finger</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/england/11233328/England-28-South-Africa-31-player-ratings-Owen-Farrell-and-Danny-Care-flop-again-in-Twickenham-defeat.html">England 28 South Africa 31, player ratings: Owen Farrell and Danny Care flop again in Twickenham defeat</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/wales/11233282/Wales-17-Fiji-13-autumn-international-Warran-Gatlands-men-fail-to-deliver-against-14-man-tourists-at-Millennium-Stadium.html">Wales 17 Fiji 13, autumn international: Warren Gatland's men fail to deliver against 14-man tourists in Cardiff</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/england/11233276/England-28-South-Africa-31-Utterly-awful-home-team-lose-for-fifth-straight-game.html">England 28 South Africa 31: Utterly awful home team lose for fifth straight game</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/england/11232944/England-v-South-Africa-live.html">England v South Africa: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/rugbyunion/international/wales/11232957/Wales-v-Fiji-live.html">Wales v Fiji: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/tennis/novakdjokovic/11233000/Novak-Djokovic-vs-Kei-Nishikori-ATP-World-Tour-Finals-live.html">Novak Djokovic v Kei Nishikori: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/cricket/international/australia/11233048/Australia-captain-Michael-Clarke-suffers-fresh-fitness-set-back-with-yet-another-hamstring-injury.html">Australia captain Michael Clarke suffers fresh fitness set-back with yet another hamstring injury</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/cricket/international/england/11232582/If-England-crash-again-in-Sri-Lanka-their-chances-of-success-in-the-2015-World-Cup-are-zero.html">If England crash again in Sri Lanka, their chances of success in the 2015 World Cup are zero</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/tennis/atptour/11207375/ATP-World-Tour-Finals-schedule.html">ATP World Tour Finals schedule</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/scotland/11232863/Scotland-football-fan-dies-after-falling-at-match-with-Republic-of-Ireland.html">Scotland football fan dies after falling at match with Republic of Ireland</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/othersports/ufc/11231381/UFC-180-Fabricio-Werdum-v-Mark-Hunt-live.html">UFC 180: Fabricio Werdum v Mark Hunt: as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sport/football/teams/scotland/11232818/Shaun-Maloney-winner-lights-up-pretty-brutal-encounter-as-Scotland-beat-Ireland-1-0-in-Euro-2016-qualifier.html">Shaun Maloney winner lights up 'pretty brutal' encounter as Scotland beat Ireland 1-0 in Euro 2016 qualifier</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/travel/" name="Travel"><h2>Travel</h2></a></div> 
+								<div class="summary"><h3><a  href="/travel/destinations/europe/uk/11231230/Strictly-Come-Dancing-puts-a-new-spring-in-Blackpools-step.html">Strictly Come Dancing puts a new spring in Blackpool&rsquo;s step</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/travel/safariandwildlifeholidays/11231377/Tusk-Conservation-Awards-Protecting-the-forests-of-Kenya.html">Tusk Conservation Awards: Protecting the forests of Kenya</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/travel/picturegalleries/11231170/The-top-10-cold-water-surf-spots.html">The top 10 cold-water surf spots</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/travel/activityandadventure/11226142/The-rise-of-cold-water-surfing.html">The rise of cold-water surfing</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/foodanddrink/" name="Food and Drink"><h2>Food and Drink</h2></a></div> 
+								<div class="summary"><h3><a  href="/foodanddrink/11232440/Foodies-made-dining-delicious-for-all-of-us.html">Foodies made dining delicious for all of us</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/foodanddrink/11228919/Pudding-cake-and-jelly-recipes-for-the-citrus-season.html">Pudding, cake and jelly recipes for the citrus season</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/gardening/" name="Gardening"><h2>Gardening</h2></a></div> 
+								<div class="summary"><h3><a  href="/gardening/11226497/Best-houseplants-for-winter.html">Best houseplants for winter</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/education/" name="Education"><h2>Education</h2></a></div> 
+								<div class="summary"><h3><a  href="/education/educationnews/11233672/Dont-leave-compromising-holiday-snaps-on-Facebook-teachers-warned-in-cyberbullying-crackdown.html">Don't leave compromising holiday snaps on Facebook, teachers warned in cyberbullying crackdown</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/education/11232662/Teach-our-children-well-but-not-too-well.html">Teach our children well &ndash; but not too well</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/education/educationopinion/11229812/Private-and-state-the-best-school-for-each-child.html">Private and state: the best school for each child</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/technology/" name="Technology"><h2>Technology</h2></a></div> 
+								<div class="summary"><h3><a  href="/technology/technology-companies/11233609/Tech-firms-need-fast-track-visas-to-hire-overseas-staff.html">Tech firms 'need fast-track visas to hire overseas staff'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/technology/picture-galleries/11231963/The-12-most-ridiculous-game-glitches-in-pictures.html">The 12 most ridiculous game glitches: in pictures</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/technology/news/11231421/Uber-taxi-app-launches-in-Leeds.html">Uber taxi app launches in Leeds</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/technology/advice/11231838/How-do-CDs-record-information.html">How do CDs record information?</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/lifestyle/" name="Lifestyle"><h2>Lifestyle</h2></a></div> 
+								<div class="summary"><h3><a  href="/lifestyle/saturday-magazine/11229246/Appy-snaps-A-street-cat-named-Bob-shares-his-Instagram-gallery.html">Appy snaps: A street cat named Bob shares his Instagram gallery</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/culture/" name="Culture"><h2>Culture</h2></a></div> 
+								<div class="summary"><h3><a  href="/culture/tvandradio/strictly-come-dancing/11233812/Strictly-Come-Dancing-Judge-Len-Goodman-swears-live-on-air.html">Strictly Come Dancing: Judge Len Goodman swears live on air</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/x-factor/11231772/the-x-factor-review-big-band-week.html">The X Factor review, Big Band week</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/strictly-come-dancing/11231683/Strictly-Come-Dancing-2014-Week-8-Blackpool-Tower-Ballroom-Live.html">Strictly Come Dancing 2014 Blackpool Tower Ballroom, as it happened</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/tv-and-radio-reviews/11231546/atlantis-review-episode-1.html">Atlantis review, episode 1: 'like a Fisher Price Game of Thrones'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/strictly-come-dancing/11231682/Strictly-Come-Dancing-2014-Week-8-Blackpool-Review.html">Strictly Come Dancing 2014 review, Blackpool Ballroom</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/11232410/Why-Ive-become-hooked-on-The-Archers.html">Why I've become hooked on The Archers</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/live-music-reviews/11233351/Jazz-Voice-review-a-recipe-for-bliss.html">Jazz Voice, review: 'a recipe for bliss'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/culturepicturegalleries/11233134/Band-Aid-30-in-pictures.html">Band Aid 30: in pictures</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/live-music-reviews/11233123/Jamie-T-review-like-a-Clash-era-Joe-Strummer.html">Jamie T, review: 'like a Clash-era Joe Strummer'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/rockandpopmusic/11233087/New-version-of-Band-Aids-Do-They-Know-Its-Christmas-to-help-Ebolas-victims.html">New version of Band Aid's 'Do They Know It's Christmas' to help Ebola's victims</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/bbc/11233102/Children-in-Need-raises-record-sum-after-One-Direction-performance.html">Children in Need raises record sum after One Direction performance</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/comedy/comedy-reviews/11233036/Russell-Brand-review-warmth-wins-the-day.html">Russell Brand, review: warmth wins the day</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/live-music-reviews/11232969/Bryan-Adams-review-banal-songs-enthusiastic-delivery.html">Bryan Adams, review: 'banal songs, enthusiastic delivery'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/cdreviews/11228744/Bryan-Ferry-Avonmore-review-the-dark-heart-of-failed-love.html">Bryan Ferry, Avonmore, review: 'the dark heart of failed love'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/11228429/Alfie-Boe-everything-changed-for-me-after-Les-Miserables.html">Alfie Boe: everything changed for me after Les Misérables</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/art/art-news/11231148/Intimate-snaps-that-put-Hockney-and-Picasso-in-sharper-focus.html">Intimate snaps that put Hockney and Picasso in sharper focus</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/theatre/11214378/Meera-Syal-Katherine-Boo-interview.html">Giving a V sign to poverty porn</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/music/rockandpopfeatures/11229844/Charles-Aznavour-Im-a-very-special-character.html">Charles Aznavour: '&lsquo;I'm a very special character&rsquo;</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/books/11229425/Val-McDermid-the-brillliant-unconventional-crime-novels-of-Josephine-Tey.html">Val McDermid: the brillliant unconventional crime novels of Josephine Tey</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/film/starsandstories/11230588/James-Brown-biopic-exclusive-behind-the-scenes.html">James Brown biopic: exclusive behind the scenes</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/photography/11223539/Wartime-wedding-glamour-in-the-East-End.html">Wartime wedding glamour in the East End</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/im-a-celebrity/11231604/Im-a-Celebrity...-My-advice-for-jungle-warfare-Watch-out-for-the-bugs-and-bikinis.html">I'm a Celebrity... My advice for jungle warfare? Watch out for the bugs and bikinis</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/film/11228713/Why-is-there-no-sex-in-Christopher-Nolans-films.html">Why is there no sex in Christopher Nolan's films?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/film/film-news/11226032/Jennifer-Lawrence-interview-Why-I-shop-at-Ikea.html">Jennifer Lawrence interview: 'Why I shop at Ikea'</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/culture/tvandradio/11232825/Lynda-Bellinghams-husband-tells-of-his-last-moments-with-his-dying-wife.html">Lynda Bellingham's husband tells of his last moments with his dying wife</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/comment/" name="Comment"><h2>Comment</h2></a></div> 
+								<div class="summary"><h3><a  href="/comment/11232479/David-Cameron-can-only-get-all-he-wants-by-first-leaving-the-EU.html">David Cameron can only get all he wants by first leaving the EU</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/comment/11232463/Adoptions-collapse-after-judge-denounces-sloppy-social-workers.html">Adoptions collapse after judge denounces 'sloppy&rsquo; social workers</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/comment/letters/11231535/Letters-A-new-Gatwick-runway-is-the-best-option-for-the-public-and-politicians.html">Letters: A new Gatwick runway is the best option for the public and politicians</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/sponsored/" name="Sponsored"><h2>Sponsored</h2></a></div> 
+								<div class="summary"><h3><a  href="/sponsored/sport/rugby-trytracker/11233151/rugby-england-south-africa-win.html?WT.mc_id=605888&amp;source=EditorialChannel">IBM TryTracker: Springboks dominate England at Twickenham again to win 31-28</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sponsored/sport/rugby-trytracker/11233139/England-v-South-Africa-Man-of-the-match-poll-reviewnf.html?WT.mc_id=605888&amp;source=EditorialChannel">England v South Africa: Man of the match poll</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sponsored/sport/rugby-trytracker/11223853/England-v-South-Africa-Action-from-Twickenham-as-Stuart-Lancasters-side-face-the-Springboks-in-picturesnf.html">England v South Africa: Action from Twickenham as Stuart Lancaster's side face the Springboks, in pictures</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/sponsored/lifestyle/innovations/11176464/internet-blocking-software.html">Internet-blocking software: switching off distractions</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/women/" name="Women"><h2>Women</h2></a></div> 
+								<div class="summary"><h3><a  href="/women/womens-life/11232428/Wedding-mania-is-so-unromantic.html">Wedding mania is so unromantic</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/women/womens-life/11232201/Drunk-girl-video-with-sleazy-men-thank-God-that-was-a-hoax....html">Phew. Good job that 'drunk girl video' with sleazy guys was a hoax...</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="headerOne">&nbsp;</div>
+								<div class="gutterUnder archiveHeader"><a href="http://www.telegraph.co.uk/men/" name="Men"><h2>Men</h2></a></div> 
+								<div class="summary"><h3><a  href="/men/thinking-man/11232370/A-doctors-story-what-his-sons-illness-taught-him-about-the-NHS.html">A doctor's story: what his son's illness taught him</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/men/active/11229853/One-man-and-his-four-legged-race-partner.html">One man and his four-legged race partner</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/men/fashion-and-style/11228311/20-affordable-mens-watches-for-all-occasions.html">20 affordable men's watches for all occasions</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/men/relationships/fatherhood/11228246/Should-we-spy-on-our-children.html">Should we spy on our children?</a>
+                </h3></div>
+							<div class="summary"><h3><a  href="/men/the-filter/11231817/The-science-of-why-we-lie.html">The science of why we lie</a>
+                </h3></div>
+							<div class="twoThirds"><p><a href="#top">Back to top</a></p></div>
+					<div class="cl"></div>
+				<div class="gutterUnder">&nbsp;</div>
+	</div>
+	<div class="oneThird">
+		<div class="access">Advertisement</div>
+<div id="yell">
+	<div class="adyell InSkinHide">
+		<div bucket-id="mpu">
+<script type="text/javascript">
+	document.write(tmgAdsBuildAdTag("yell", "300x150", "adj", "", 2));</script>
+	</div></div>
+</div>
+
+
+
+
+
+
+
+<div class="summaryMedium">
+	<div bucket-id="article_commercial_02">
+				<script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script></div>
+		</div>
+
+<div class="admpu gutterUnder">
+  <script type="text/javascript">
+     /* EPOCH time at the start of MPU Ad */
+     var mpuAdTimerStart = Date.now();
+  </script>
+<div class="access">Advertisement</div>
+<div id="mpu" class="InSkinHide">
+	<div bucket-id="mpu">
+<script type="text/javascript">
+	document.write(tmgAdsBuildAdTag("mpu", "300x250,300x600", "adj", "", 2));</script>
+	</div></div>
+</div>
+
+<div class="summaryMedium gutterUnder">
+	<div bucket-id="widget_01">
+			
+                    
+                                <script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script>
+                        
+		    </div>
+		</div>
+
+<div class="summaryMedium gutterUnder">
+	<div bucket-id="widget_02">
+			
+                    
+                                <script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script>
+                        
+		    </div>
+		</div>
+
+<div class="summaryMedium">
+	<div bucket-id="editors_choice_01">
+				<div class="editorsChoice"><script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script></div></div>
+		</div>
+
+<div class="adarea gutterUnder">
+			<div class="adsky">
+				<script type="text/javascript">
+     /* EPOCH time at the start of skyscraper Ad */
+     var startOfSkyscraper = Date.now();
+  </script>
+<div class="access">Advertisement</div>
+<div class="InSkinHide" align="center">
+	<div bucket-id="mpu">
+<script type="text/javascript">
+	document.write(tmgAdsBuildAdTag("hpg,sks,skl", "300x600,120x600,160x600", "adj", "", 2));</script>
+	</div></div></div>
+	
+			<div class="cl"></div>
+		</div>
+		
+	<div class="summaryMedium gutterUnder">
+	<div bucket-id="widget_03">
+			
+                    
+                                <script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script>
+                        
+		    </div>
+		</div>
+<div class="cl"></div>
+
+<div class="summaryMedium">
+	</div>
+
+<div class="summaryMedium">
+	<div bucket-id="article_commercial_03">
+				<script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script></div>
+		</div>
+
+<div class="summaryMedium">
+	<div bucket-id="article_editorial_01">
+				<script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script></div>
+		</div>
+
+<div class="summaryMedium">
+	<div bucket-id="article_commercial_04">
+				<script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script></div>
+		</div>
+
+
+
+<div class="summaryMedium">
+	<div bucket-id="article_commercial_05">
+				<script type="text/javascript">
+        var optaTeamLinkingCallback = function () {
+            var teamMapping = {
+                "team-3": "arsenal",
+                "team-7": "aston-villa",
+                "team-57": "watford",
+                "team-8": "chelsea",
+                "team-31": "crystal-palace",
+                "team-11": "everton",
+                "team-45": "norwich-city",
+                "team-13": "leicester-city",
+                "team-14": "liverpool",
+                "team-43": "manchester-city",
+                "team-1": "manchester-united",
+                "team-4": "newcastle-united",
+                "team-91": "bournemouth",
+                "team-20": "southampton",
+                "team-110": "stoke-city",
+                "team-56": "sunderland",
+                "team-80": "swansea-city",
+                "team-6": "tottenham-hotspur",
+                "team-35": "west-bromwich-albion",
+                "team-21": "west-ham"
+            };
+
+            var rugbyTeamMapping = {
+                "team-800": "argentina",
+                "team-100": "australia",
+                "team-953": "canada",
+                "team-550": "england",
+                "team-954": "fiji",
+                "team-650": "france",
+                "team-2850": "georgia",
+                "team-600": "ireland",
+                "team-952": "italy",
+                "team-3000": "japan",
+                "team-2900": "namibia",
+                "team-850": "newzealand",
+                "team-951": "romania",
+                "team-950": "samoa",
+                "team-700": "scotland",
+                "team-900": "southafrica",
+                "team-750": "tonga",
+                "team-2800": "uruguay",
+                "team-2950": "usa",
+                "team-500": "wales"
+            };
+
+            for (var team in teamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/football/teams/' + teamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+            for (var team in rugbyTeamMapping) {
+                $('.fixtures dl.matches dt.match span.' + team).
+                        add('.standings-container table tr.' + team + ' td.team').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .team-name').
+                        add('.fixtures-plus table tr.scoreline td.' + team + ' .relative-holder').each(function () {
+                            var textNode = $(this).contents().filter(function () {
+                                return ( this.nodeType === 3 );
+                            }).last();
+
+                            var link = document.createElement('a');
+                            var text = document.createTextNode(textNode.text());
+                            link.appendChild(text);
+                            link.setAttribute('class', 'opta-team-linking');
+                            link.setAttribute('href', 'http://www.telegraph.co.uk/sport/rugbyunion/international/' + rugbyTeamMapping[team]);
+                            link.onclick = function () {
+                                var menuSec = "opta-" + $('meta[name="GSASectionUniqueName"]').attr("content");
+                                $.cookie('tmg_navPos', menuSec, { path: '/', domain: 'telegraph.co.uk'});
+                            };
+
+                            textNode.replaceWith(link);
+                        });
+            }
+        };
+
+        </script></div>
+		</div>
+</div>
+	<div class="cl"></div>
+
+</div>
+
+</div>
+<script type="text/javascript">
+/* EPOCH time at the end of content Area */
+                var contentEndTimer = Date.now();
+</script>
+<div class="backtotop"><p><a href="#top">Back to top</a></p></div>
+<div id="tmglFooterLarge">
+		<a href="http://www.telegraph.co.uk/" id="footerlogolink" class="spr" title="Telegraph.co.uk: news, business, sport, the Daily Telegraph newspaper, Sunday Telegraph - Telegraph"></a>
+		<div id="tmglFooterLargeItems">		
+			<div class="footercolumn">									
+				<ul class="menu1"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/?utm_source=TMG&utm_medium=footer_home&utm_campaign=footerhomelink">HOME</a></li>								
+
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/news/">News</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/news/worldnews/">World News</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/news/obituaries/">Obituaries</a></li>
+					</ul>
+					
+					<ul class="menu2"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/travel/">Travel</a></li>								
+
+					</ul>
+					
+					<ul class="menu3"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/news/health/">Health</a></li>								
+
+					<li><a  target="_parent" href="http://jobs.telegraph.co.uk">Jobs</a></li>
+					</ul>
+					
+					</div> <div class="footercolumn">
+						<ul class="menu1"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/sport/">Sport</a></li>								
+
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/sport/football/">Football</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/sport/cricket/">Cricket</a></li>
+					<li><a  target="_parent" href="https://fantasyfootball.telegraph.co.uk/">Fantasy Football</a></li>
+					</ul>
+					
+					<ul class="menu2"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/culture/">Culture</a></li>								
+
+					</ul>
+					
+					<ul class="menu3"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/motoring/">Motoring</a></li>								
+
+					<li><a  target="_parent" href="http://dating.telegraph.co.uk/s/a/4168">Dating</a></li>
+					</ul>
+					
+					</div> <div class="footercolumn">
+						<ul class="menu1"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/finance/">Finance</a></li>								
+
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/finance/personalfinance/">Personal Finance</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/finance/economics/">Economics</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/finance/markets/">Markets</a></li>
+					</ul>
+					
+					<ul class="menu2"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/fashion/">Fashion</a></li>								
+
+					</ul>
+					
+					<ul class="menu3"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/finance/property/">Property</a></li>								
+
+					<li><a  target="_parent" href="http://puzzles.telegraph.co.uk/">Puzzles</a></li>
+					</ul>
+					
+					</div> <div class="footercolumn">
+						<ul class="menu1"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/comment/">Comment</a></li>								
+
+					<li><a  target="_parent" href="http://my.telegraph.co.uk">My Telegraph</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/comment/letters/">Letters</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/comment/columnists/">Columnists</a></li>
+					</ul>
+					
+					<ul class="menu2"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/technology/">Technology</a></li>								
+
+					</ul>
+					
+					<ul class="menu3"><li class="itemfocus"><a target="_parent" href="http://www.telegraph.co.uk/gardening/">Gardening</a></li>								
+
+					<li><a  target="_parent" href="http://shop.telegraph.co.uk/?utm_source=tmg&utm_medium=footer&utm_campaign=portal">Telegraph Shop</a></li>
+					</ul>
+					
+					</div> <div class="footercolumn">
+						<ul class="menu1"><li class="itemfocus"><a target="_parent" href="/topics/about-us/3489870/Contact-Telegraph-Media-Group.html">Contact us</a></li>								
+
+					<li><a  target="_parent" href="/topics/about-us/3691972/Privacy-and-Cookie-Policy.html">Privacy and Cookies</a></li>
+					<li><a  target="_parent" href="/topics/about-us/11570701/Editorial-and-commercial-guidelines.html">Guidelines</a></li>
+					<li><a  target="_parent" href="http://www.telegraph.co.uk/advertising/">Advertising</a></li>
+					</ul>
+					
+					<ul class="menu2"><li class="itemfocus"><a target="_parent" href="http://tickets.telegraph.co.uk/">Tickets</a></li>								
+
+					</ul>
+					
+					<ul>
+					<li><a target="_parent" href="http://announcements.telegraph.co.uk/">Announcements</a></li>
+						<li><a target="_parent" href="http://3276.e-printphoto.co.uk/dailytelegraph/">Reader Prints</a></li>
+						<li><a target="_parent" href=""></a></li>
+						</ul>
+			</div>
+
+			<!-- RSSFeeds Menu-->
+			
+			<div id="footercolumn_last">
+				<ul class="imgBulletList">
+					<li class="footrss"><a target="_parent" href="http://www.telegraph.co.uk/topics/follow-us/">Follow Us</a></li>
+							<li class="footmobile"><a target="_parent" href="http://www.telegraph.co.uk/subscriptions/">Apps</a></li>
+							<li class="footepaper"><a target="_parent" href="http://dailytelegraph.newspaperdirect.com/epaper/viewer.aspx ">Epaper</a></li>
+							<li class=""><a target="_parent" href="http://www.telegraph.co.uk/expat/">Expat</a></li>
+							</ul>
+			
+				<ul class="ullast">
+					<li><a target="_parent" href="http://www.telegraph.co.uk/promotions/">Promotions</a></li>
+						<li><a target="_parent" href="http://subscriber.telegraph.co.uk/loyalty/">Subscriber</a></li>
+						<li><a target="_parent" href="http://www.telegraph.co.uk/topics/syndication-services/">Syndication</a></li>
+						</ul>
+			</div>	
+			<div class="cl"></div>
+		</div> <!-- end of tmglFooterLargeItems div -->
+	
+<div id="footerinfo">
+			<p>&copy; Copyright of Telegraph Media Group Limited 2016</p>
+			<p><a target="_parent" href="http://www.telegraph.co.uk/termsandconditions">Terms and Conditions</a> </p>
+			<p><a target="_parent" href="/archive/2016-11-24.html">Today's News</a></p>
+			<p ><a target="_parent" href="http://www.telegraph.co.uk/archive/">Archive</a></p>
+					<p ><a target="_parent" href="http://www.telegraph.co.uk/topics/about-us/style-book/">Style Book</a></p>
+					<p class="last"><a target="_parent" href="/news/weather/4142730/Weather-forecast.html">Weather Forecast</a></p>
+					<div class="cl"></div>			
+		</div>
+	</div> <!-- end of tmglFooterLargeNew div -->
+	<script type="text/javascript">
+/* EPOCH time at the end of footer */
+                var footerEndTimer = Date.now();
+</script>
+</div>
+<script type="text/javascript">
+    g_opt_ch = '{}';g_opt_cv = '{}';g_opt_b = true;g_opt_s = true;</script>
+<script type="text/javascript" src="/template/utils/ooyala/scripts/ooyala.js"> </script>
+    <script src="/template/ver1-0/js/youtube.js" type="text/javascript"></script>
+<script type="text/javascript" src="/template/ver1-0/js/jquery-ui-1.8.4.custom.min.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/jquery.ticker.js"></script>
+
+<script type="text/javascript" src="/template/ver1-0/js/common.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/tmglSlideShow.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/supersleight.plugin.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/tracker.js"></script>
+<script type="text/javascript">
+			(function() {
+				var links = $("a[href*='disqus_thread']");
+				var query = "";
+				var blogQuery = "";
+				var normal = new Array();
+				var normalCounts = new Array();
+				var blog = new Array();
+				var blogCounts = new Array();
+
+				for(var i = 0; i < links.length; i++) {
+					if (links[i].getAttribute('dsqid')) {
+						var dsqid = links[i].getAttribute('dsqid');
+						if (links[i].className == 'dsqblog') { blogQuery += 'dsqid' + i + '=' + dsqid + '&'; } else { query += 'dsqid' + i + '=' + dsqid + '&'; }
+					}
+				}
+				if (query.length != "" && blogQuery.length != "") {
+					$("a[href*='disqus_thread']") && $("a.dsqblog").each(function(i) {
+						blog[i] = $(this).attr("href");
+						$(this).attr("href","blog_link");
+					});
+					loadScript("http://telegraphuk.disqus.com/get_num_replies_from_dsqid.js?" + query, function() {
+						$("a[href*='disqus_thread']").not(".dsqblog").each(function(i) {
+							normal[i] = $(this).attr("href");
+							normalCounts[i] = $(this).html();
+							$(this).attr("href","normal_link");
+						});
+
+						$("a[href*='blog_link']").each(function(i) { $(this).attr("href",blog[i]); });
+
+						loadScript("http://telegraphblogs.disqus.com/get_num_replies_from_dsqid.js?" + blogQuery, function() {
+							$("a[href*='normal_link']").each(function(i) { $(this).attr("href",normal[i]); });
+						});
+					});
+				} else {
+					document.write('<script charset="utf-8" type="text/javascript" src="http://telegraphuk.disqus.com/get_num_replies_from_dsqid.js?' + query + '"></' + 'script>');
+				}
+			})();
+		</script>
+		<script type="text/javascript" src="/template/ver1-0/js/tmglMultitrackSelector1.js"></script>
+<script type="text/javascript" src="/template/ver1-0/js/popup.js"></script>
+
+<script language="Javascript" type="text/javascript" src="/template/ver1-0/js/poll.js"></script>
+<script type="text/javascript">
+		var _sf_async_config={uid:22437,domain:"telegraph.co.uk"};
+
+		
+			_sf_async_config.sections = "Archive";
+		
+
+		(function(){
+			function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src',
+			(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://") +
+			"static.chartbeat.com/js/chartbeat.js"); document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); }; })();
+	</script>
+<script type="text/javascript"> 
+			var skimlinks_script = document.createElement('script'); 
+			    skimlinks_script.type = 'text/javascript'; 
+			    skimlinks_script.async = 'true';
+			    skimlinks_script.src = 'http://s.skimresources.com/js/296X467.skimlinks.js';
+			var skimlinks_script_attach = document.getElementsByTagName('script')[0]; 
+			skimlinks_script_attach.parentNode.insertBefore(skimlinks_script, skimlinks_script_attach.nextSibling); 
+		</script>
+	<!-- START Nielsen Online SiteCensus V6.0 -->
+		<!-- COPYRIGHT 2010 Nielsen Online -->
+		<script type="text/javascript" src="//secure-uk.imrworldwide.com/v60.js">
+		</script>
+		<script type="text/javascript">
+			 var pvar = { cid: "uk-101665h", content: "0", server: "secure-uk" };
+			 var feat = { surveys_enabled: 1 };
+			 var trac = nol_t(pvar, feat);
+			 trac.record().post().do_sample();
+		</script>
+		<noscript>
+		 <div>
+			 <img src="//secure-uk.imrworldwide.com/cgi-bin/m?ci=uk-101665h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+			 width="1" height="1" alt="" />
+		 </div>
+		</noscript>
+		<!-- END Nielsen Online SiteCensus V6.0 -->
+	<div bucket-id="mpu">
+<script type="text/javascript">
+	
+	document.write(tmgAdsBuildAdTag("tmg", "1x1", "adj", "", 2));
+	document.write(tmgAdsBuildAdTag("ftr", "1x1", "adj", "", 2));</script>
+	</div><script type="text/javascript">_satellite.pageBottom();</script>
+    </body>
+</html>
+
