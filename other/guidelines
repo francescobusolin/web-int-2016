@@ -1,0 +1,10 @@
+1- estrazione urls
+	a- collegarsi su 'http://www.telegraph.co.uk/archive'
+		da qui scegliere anno poi mese poi giorni di estrazione esempio ('http://www.telegraph.co.uk/archive/2014-11-16.html') per
+		le news del 16 Novembre 2014
+		** quindi si potrebbe creare a mano un file con la lista dei giorni da scaricare (esempio tutto Marzo 2016 o altro) **
+	b- scaricare la pagina web
+	c- estrarre gli urls dai div: <div class = 'headerOne' >
+	d- aggiungere in testa a ciascuna estrazione la stringa 'http://www.telegraph.co.uk/'
+	d- salvare i link ottenuti su disco ( (this)/repo/url)
+2- download pagine web
