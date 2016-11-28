@@ -8,3 +8,5 @@
 	d- aggiungere in testa a ciascuna estrazione la stringa 'http://www.telegraph.co.uk/'
 	d- salvare i link ottenuti su disco ( (this)/repo/url)
 2- download pagine web
+    a- procedere al solito
+    b- cercare per estrarre notizie <div id="mainBodyArea" itemprop="articleBody">
