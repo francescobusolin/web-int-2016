@@ -10,24 +10,26 @@ import BeautifulSoup
 #in the first step we setup the environment creating dirs
 # and initializing some global variables
 
-# here we read the references to the archive
-# at the moment there are links to
-# the news from the 1st of November 2014 to the 16th November 2014
-archive_file = open('other/links', 'r')
-urls = archive_file.readlines()
-archive_file. close()
 # here we setup all the globally used references
-INTERMEDIATE_DIR = 'other/inter/'
-ARCHIVE_DIR = INTERMEDIATE_DIR + 'archive'
-COMPRESSED_URLS = INTERMEDIATE_DIR + "compressed"
+OTHER_DIR = 'other'
+INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
+ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
+COMPRESSED_URLS = os.path.join(INTERMEDIATE_DIR,'compressed')
 
 REPO_DIR = 'repo'
-PAGES_DIR = REPO_DIR + '/pages'
-URLS_DIR = REPO_DIR + "/urls"
-NEWS_DIR = REPO_DIR + '/news'
+PAGES_DIR = os.path.join(REPO_DIR,'pages')
+URLS_DIR = os.path.join(REPO_DIR,'urls')
+NEWS_DIR = os.path.join(REPO_DIR,'news')
 
 REMOTE_BASE = 'http://www.telegraph.co.uk'
 
+
+# here we read the references to the archive
+# at the moment there are links to
+# the news from the 1st of November 2014 to the 16th November 2014
+archive_file = open(os.path.join(OTHER_DIR,'links'), 'r')
+urls = archive_file.readlines()
+archive_file. close()
 # here we create (if not present) every directory used later
 if(not os.path.isdir(INTERMEDIATE_DIR)):
     print 'creating dir "intermediate"'
@@ -52,6 +54,9 @@ if (not os.path.isdir(URLS_DIR)):
 if (not os.path.isdir(NEWS_DIR)):
     print 'creating dir "news"'
     os.mkdir(NEWS_DIR)
+if (not os.path.isdir(PAGES_DIR)):
+    print 'creating dir "pages"'
+    os.mkdir(PAGES_DIR)
 
 # here we download every page from the archive and we store them in our
 # archive directory, we also wait 1 second between each download
