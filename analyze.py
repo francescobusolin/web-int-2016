@@ -14,5 +14,3 @@ URLS_DIR = os.path.join(REPO_DIR,'urls')
 NEWS_DIR = os.path.join(REPO_DIR,'news')
 
 REMOTE_BASE = 'http://www.telegraph.co.uk'
-
-DATA_FILE = os.path.join(URLS_DIR,'urls')

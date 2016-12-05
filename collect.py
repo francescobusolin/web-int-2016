@@ -1,6 +1,7 @@
 import os
 import urllib2
 import time
+import re
 # it is supposed that the @setup.py script had been previously run
 # here we setup all the globally used references
 OTHER_DIR = 'other'
@@ -23,25 +24,33 @@ with open(DATA_FILE,'r') as f:
     f.close()
 i = j = 0
 pages = []
-for url in urls:
-    try:
-        req = urllib2.Request(url)
-        response = urllib2.urlopen(req)
-        page = response.read()
-        pages.append(page)
-        i += 1
-        time.sleep(1)
-    except (IOError,ValueError) as e:
-        print 'something is going wrong'
-        j += 1
-    print str(i) + ' -- ' + str(j)
+for url in urls[:10]:
+    filename = re.sub('[^a-zA-Z0-9]+', '-', url)
+    download_path = os.path.join(NEWS_DIR, filename)
+    if not os.path.exists(download_path):
+        try:
+            req = urllib2.Request(url)
+            response = urllib2.urlopen(req)
+            page = response.read()
+            pages.append(page)
+            i += 1
+            time.sleep(1)
+            with open(os.path.join(PAGES_DIR, filename), mode='w', encoding='utf-8') as fd:
+                fd.write(page)
+
+        except (IOError,ValueError) as e:
+            print 'something is going wrong'
+            j += 1
+        print str(i) + ' -- ' + str(j)
+    else:
+        print 'already present page ' + filename
 
 print str(i) + ' pages downloaded'
 print str(j) + ' errors occurred'
-i = 0
-for page in pages:
-    filename = 'PAGE_' + str(i)
-    with open(os.path.join(PAGES_DIR,filename),mode='w') as fd:
-        fd.write(page)
-        i += 1
-        print 'saved ' + filename
+#i = 0
+#for page in pages:
+ #   filename = 'PAGE_' + str(i)
+  #  with open(os.path.join(PAGES_DIR,filename),mode='w', encoding='utf-8') as fd:
+   #     fd.write(page)
+    #    i += 1
+     #   print 'saved ' + filename
