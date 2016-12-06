@@ -26,7 +26,7 @@ REMOTE_BASE = 'http://www.telegraph.co.uk'
 
 # here we read the references to the archive
 # at the moment there are links to
-# the news from the 1st of November 2014 to the 16th November 2014
+# the news from the 1st of November 2014 to the 16th of November 2014
 archive_file = open(os.path.join(OTHER_DIR,'links'), 'r')
 urls = archive_file.readlines()
 archive_file. close()
@@ -79,7 +79,7 @@ print 'Reading Errors: ' + str(j)
 
 news_links = []
 # here we extract the useful links from each page
-# after examinating the structure of nthe web pages
+# after examinating the structure of the web pages
 # we know that the links useful to us are inside a 'href'
 # property and they are like'/news/<name of article>.html'
 for line in os.listdir(ARCHIVE_DIR):
@@ -107,6 +107,6 @@ for url in news_links:
 f.close()
 print 'wrote all links into the file ' + URLS_DIR + '/urls'
 
-# this is the end of the extraction script
+# this is the end of the setup script
 
 
