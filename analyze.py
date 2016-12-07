@@ -21,10 +21,10 @@ REMOTE_BASE = 'http://www.telegraph.co.uk'
 DATA_FILE = os.path.join(URLS_DIR,'urls')
 
 def tokenize(document):
-
     document = document.lower()
     document = re.sub('[!"#$%&\'()*+,-./:;<=>?@\[\\\\\]^_`{|}~]', ' ', document)
     return document.split()
+
 documents = []
 for filename  in os.listdir(NEWS_DIR):
     with io.open(os.path.join(NEWS_DIR,filename),encoding='utf-8') as f:
@@ -38,15 +38,17 @@ for text in texts:
     occurences.update(text)
 
 most_common_overall = occurences.most_common(500)
-file = 'common_overall.csv'
+file_ovr = 'common_overall.csv'
 print most_common_overall
-with open(os.path.join(OTHER_DIR,file),mode='w') as f:
-    csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
-    csv_writer.writerow(['word','count'])
-    for key, count in most_common_overall:
-        word = key
-        print [word,count]
-        csv_writer.writerow([word,count])
+if not os.path.isfile(os.path.join(OTHER_DIR,file_ovr)):
+    with open(os.path.join(OTHER_DIR,file),mode='w') as f:
+            csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
+            csv_writer.writerow(['word','count'])
+            for key, count in most_common_overall:
+                word = key
+                print [word,count]
+                csv_writer.writerow([word,count])
+
 with io.open(os.path.join(OTHER_DIR,'stopwords_eng.txt'),encoding='utf-8') as f:
     content = f.read()
 stop = content.split('\n')
@@ -68,14 +70,15 @@ for row in lemma:
 print lemma_counter
 
 most_common_lemmatized = lemma_counter.most_common(500)
-file = 'common_lemma.csv'
-with open(os.path.join(OTHER_DIR,file),mode='w') as f:
-    csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
-    csv_writer.writerow(['word','count'])
-    for key, count in most_common_lemmatized:
-        word = key
-        print [word,count]
-        csv_writer.writerow([word,count])
+file_lemma = 'common_lemma.csv'
+if not os.path.isfile(os.path.join(OTHER_DIR,file_lemma)):
+    with open(os.path.join(OTHER_DIR,file),mode='w') as f:
+        csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
+        csv_writer.writerow(['word','count'])
+        for key, count in most_common_lemmatized:
+            word = key
+            print [word,count]
+            csv_writer.writerow([word,count])
 
 lexicon = gensim.corpora.Dictionary(texts)
 print 'Lessico tutte le notizie\n'
@@ -85,9 +88,12 @@ print '\n'
 corpus = [lexicon.doc2bow(text) for text in texts]
 print ' bags of words completo'
 
-#costruiamo la matrice di similarita
+#TF-IDF analysis
 tfidf = gensim.models.TfidfModel(corpus)
 index = gensim.similarities.SparseMatrixSimilarity(tfidf[corpus],num_features=len(lexicon))
-vec = corpus[:10]
-sims = index[tfidf[vec]]
-print(list(enumerate(sims)))
+indexes = range(0,10,1)
+for i in indexes:
+    scores = index[corpus[i]]
+    top = sorted(enumerate(scores), key= lambda (k,v): v,reverse=True)
+    print ' for document %d recommend:'%i
+    print top[1:5]
