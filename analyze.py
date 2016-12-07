@@ -76,3 +76,18 @@ with open(os.path.join(OTHER_DIR,file),mode='w') as f:
         word = key
         print [word,count]
         csv_writer.writerow([word,count])
+
+lexicon = gensim.corpora.Dictionary(texts)
+print 'Lessico tutte le notizie\n'
+print lexicon
+print '\n'
+
+corpus = [lexicon.doc2bow(text) for text in texts]
+print ' bags of words completo'
+
+#costruiamo la matrice di similarita
+tfidf = gensim.models.TfidfModel(corpus)
+index = gensim.similarities.SparseMatrixSimilarity(tfidf[corpus],num_features=len(lexicon))
+vec = corpus[:10]
+sims = index[tfidf[vec]]
+print(list(enumerate(sims)))
