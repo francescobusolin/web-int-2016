@@ -18,17 +18,16 @@ NEWS_DIR = os.path.join(REPO_DIR,'news')
 REMOTE_BASE = 'http://www.telegraph.co.uk'
 
 DATA_FILE = os.path.join(URLS_DIR,'urls')
-
 def tokenize(document):
     document = document.lower()
     document = re.sub('[!"#$%&\'()*+,-./:;<=>?@\[\\\\\]^_`{|}~]', ' ', document)
     return document.split()
-
+#
 def recommendations(lexicon, model, document, n=10):
     index = gensim.similarities.MatrixSimilarity(model, num_features=len(lexicon))
     scores = index[document]
     top = sorted(enumerate(scores), key=lambda (k, v): v, reverse=True)
-    return top[1:n]
+    return top[1:n] # togliamo il primo documento dato che e' sempre se' stesso
 
 documents = []
 for filename  in os.listdir(NEWS_DIR):
@@ -54,8 +53,17 @@ corpus = [lexicon.doc2bow(text) for text in texts]
 print ' built corpus'
 
 #TF-IDF analysis
+print 'TF-IDF recomendations'
 indexes = range(15,35,1)
 tfidf = gensim.models.TfidfModel(corpus)
 for i in indexes:
     print ('\nfor document %d we recommend:' % i)
     print recommendations(lexicon,tfidf[corpus],tfidf[corpus[i]],20)
+
+# LSI analysis
+print 'LSI analysis'
+indexes = range(15,35,1)
+lsi = gensim.models.LsiModel(corpus,id2word=lexicon,num_topics=10)
+for i in indexes:
+    print ('\nfor document %d we recommend:' % i)
+    print recommendations(lexicon,lsi[corpus],lsi[corpus[i]],20)

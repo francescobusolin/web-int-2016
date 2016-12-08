@@ -6,7 +6,7 @@ import io
 # -- INTRODUZIONE --
 #   In questo script vengono estratte e memorizzate le notizie
 
-# NB: viene supposto che in precedenza siano stati eseguiti lo script @setup.py e @collect.py
+# NB: viene supposto che in precedenza siano stati eseguiti gli script @setup.py e @collect.py
 OTHER_DIR = 'other'
 INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
 ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
