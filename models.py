@@ -2,7 +2,6 @@ import os
 import re
 import io
 import collections
-import csv
 import gensim
 # it is supposed that both @setup.py and @collect.py scripts had been previously run
 # here we setup all the globally used references
@@ -25,6 +24,12 @@ def tokenize(document):
     document = re.sub('[!"#$%&\'()*+,-./:;<=>?@\[\\\\\]^_`{|}~]', ' ', document)
     return document.split()
 
+def recommendations(lexicon, model, document, n=10):
+    index = gensim.similarities.MatrixSimilarity(model, num_features=len(lexicon))
+    scores = index[document]
+    top = sorted(enumerate(scores), key=lambda (k, v): v, reverse=True)
+    return top[1:n]
+
 documents = []
 for filename  in os.listdir(NEWS_DIR):
     with io.open(os.path.join(NEWS_DIR,filename),encoding='utf-8') as f:
@@ -36,46 +41,21 @@ texts = [tokenize(document) for document in documents]
 occurences = collections.Counter()
 for text in texts:
     occurences.update(text)
-
-most_common_overall = occurences.most_common(500)
-file_ovr = 'common_overall.csv'
-print most_common_overall
-if not os.path.isfile(os.path.join(OTHER_DIR,file_ovr)):
-    with open(os.path.join(OTHER_DIR,file),mode='w') as f:
-            csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
-            csv_writer.writerow(['word','count'])
-            for key, count in most_common_overall:
-                word = key
-                print [word,count]
-                csv_writer.writerow([word,count])
-
 with io.open(os.path.join(OTHER_DIR,'stopwords_eng.txt'),encoding='utf-8') as f:
     content = f.read()
 stop = content.split('\n')
 
 texts = [[word for word in text if word not in stop and occurences[word] > 1]for text in texts]
-lemma = []
-for news in texts:
-    news_lemma = []
-    for word in news:
-        news_lemma.append(gensim.utils.lemmatize(word))
-    print news_lemma
-    lemma.append(news_lemma)
 
-lemma_counter = collections.Counter()
-for row in lemma:
-    for cell in row:
-        lemma_counter.update(cell)
+lexicon = gensim.corpora.Dictionary(texts)
+print 'built lexicon'
 
-print lemma_counter
+corpus = [lexicon.doc2bow(text) for text in texts]
+print ' built corpus'
 
-most_common_lemmatized = lemma_counter.most_common(500)
-file_lemma = 'common_lemma.csv'
-if not os.path.isfile(os.path.join(OTHER_DIR,file_lemma)):
-    with open(os.path.join(OTHER_DIR,file),mode='w') as f:
-        csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
-        csv_writer.writerow(['word','count'])
-        for key, count in most_common_lemmatized:
-            word = key
-            print [word,count]
-            csv_writer.writerow([word,count])
+#TF-IDF analysis
+indexes = range(15,35,1)
+tfidf = gensim.models.TfidfModel(corpus)
+for i in indexes:
+    print ('\nfor document %d we recommend:' % i)
+    print recommendations(lexicon,tfidf[corpus],tfidf[corpus[i]],20)
