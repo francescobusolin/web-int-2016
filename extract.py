@@ -13,14 +13,21 @@ REPO_DIR = 'repo'
 PAGES_DIR = os.path.join(REPO_DIR,'pages')
 URLS_DIR = os.path.join(REPO_DIR,'urls')
 NEWS_DIR = os.path.join(REPO_DIR,'news')
-
+FILES = os.path.join(URLS_DIR,'files')
 REMOTE_BASE = 'http://www.telegraph.co.uk'
 documents = []
 i = 0
-for filename in os.listdir(PAGES_DIR):
-    with open(os.path.join(PAGES_DIR, filename)) as f:
-        page = f.read()
-        f.close()
+files = []
+with open(FILES,mode='r') as f:
+    files  = f.read().split('\n')
+
+for filename in files:
+    try:
+        with open( filename) as f:
+            page = f.read()
+            f.close()
+    except IOError as e:
+        print 'cannot read this page ' + filename
     soup = BeautifulSoup.BeautifulSoup(page)
     document_list = soup.findAll('div',{ "class" : re.compile('Par$')})
     document = ''
@@ -34,7 +41,7 @@ i = 0
 for doc in documents:
     filename = 'NEWS_' + str(i)
     with io.open(os.path.join(NEWS_DIR,filename),mode='w',encoding='utf-8') as f:
-        f.write(unicode(doc))
+        f.write((doc).encode('utf-8','ignore').decode('utf-8','ignore'))
         print 'saved news ' + str(i)
     i += 1
 print '\ntotal saved news ' + str(i)

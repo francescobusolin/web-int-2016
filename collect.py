@@ -1,5 +1,5 @@
 import os
-import urllib2
+import urllib
 import time
 import re
 import io
@@ -25,34 +25,35 @@ with open(DATA_FILE,'r') as f:
     f.close()
 i = j = k = 0
 #pages = []
-for url in urls[:100]:
+paths = []
+for url in urls:
     filename = re.sub('[^a-zA-Z0-9]+', '-', url)
-    download_path = os.path.join(NEWS_DIR, filename)
+    download_path = os.path.join(PAGES_DIR, filename)
     if not os.path.exists(download_path):
         try:
-            req = urllib2.Request(url)
-            response = urllib2.urlopen(req)
-            page = response.read()
+            urllib.urlretrieve(url, download_path)
+            #req = urllib2.Request(url)
+            #esponse = urllib2.urlopen(req)
+           # page = response.read()
 #            pages.append(page)
             i += 1
            # time.sleep(1)
-            with io.open(os.path.join(PAGES_DIR, filename), mode='wb') as fd:
-                fd.write(page)
+         #   with io.open(os.path.join(PAGES_DIR, filename), mode='wb') as fd:
+                #fd.write(page)
         except (IOError,ValueError) as e:
             print 'something is going wrong'
             j += 1
         print str(i) + ' -- ' + str(j)
     else:
-        print 'already present page ' + filename
+        print 'already present page ' + download_path
         k += 1
+    paths.append(download_path)
 
 print str(i) + ' pages downloaded'
 print str(k) + ' pages already stored'
 print str(j) + ' errors occurred'
-#i = 0
-#for page in pages:
- #   filename = 'PAGE_' + str(i)
-  #  with open(os.path.join(PAGES_DIR,filename),mode='w', encoding='utf-8') as fd:
-   #     fd.write(page)
-    #    i += 1
-     #   print 'saved ' + filename
+
+with open(os.path.join(URLS_DIR,'files'),mode='wb') as f:
+    for path in paths:
+        f.write(path)
+        f.write('\n')
