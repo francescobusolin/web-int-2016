@@ -2,7 +2,7 @@ import os
 import re
 import io
 import collections
-import csv as csv
+import csv
 import gensim
 # it is supposed that both @setup.py and @collect.py scripts had been previously run
 # here we setup all the globally used references

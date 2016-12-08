@@ -2,8 +2,11 @@ import os
 import re
 import BeautifulSoup
 import io
-# it is supposed that both @setup.py and @collect.py scripts had been previously run
-# here we setup all the globally used references
+# SCRIPT 3 / 5
+# -- INTRODUZIONE --
+#   In questo script vengono estratte e memorizzate le notizie
+
+# NB: viene supposto che in precedenza siano stati eseguiti lo script @setup.py e @collect.py
 OTHER_DIR = 'other'
 INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
 ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
@@ -15,11 +18,13 @@ URLS_DIR = os.path.join(REPO_DIR,'urls')
 NEWS_DIR = os.path.join(REPO_DIR,'news')
 FILES = os.path.join(URLS_DIR,'files')
 REMOTE_BASE = 'http://www.telegraph.co.uk'
+
 documents = []
 i = 0
 files = []
+
 with open(FILES,mode='r') as f:
-    files  = f.read().split('\n')
+    files = f.read().split('\n')
 
 for filename in files:
     try:
@@ -37,11 +42,12 @@ for filename in files:
     documents.append(document)
     i += 1
 print 'total news extracted: ' + str(i) + '\n'
+
 i = 0
 for doc in documents:
     filename = 'NEWS_' + str(i)
     with io.open(os.path.join(NEWS_DIR,filename),mode='w',encoding='utf-8') as f:
-        f.write((doc).encode('utf-8','ignore').decode('utf-8','ignore'))
+        f.write(doc)
         print 'saved news ' + str(i)
     i += 1
 print '\ntotal saved news ' + str(i)

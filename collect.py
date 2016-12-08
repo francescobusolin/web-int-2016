@@ -2,9 +2,13 @@ import os
 import urllib
 import time
 import re
-import io
-# it is supposed that the @setup.py script had been previously run
-# here we setup all the globally used references
+# SCRIPT 2 / 5
+# -- INTRODUZIONE --
+#   In questo script vengono scaricate e memorizzate le pagine
+#   web contenti le notizie
+
+# NB: viene supposto che in precedenza sia stato eseguito lo script @setup.py
+
 OTHER_DIR = 'other'
 INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
 ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
@@ -19,31 +23,34 @@ REMOTE_BASE = 'http://www.telegraph.co.uk'
 
 DATA_FILE = os.path.join(URLS_DIR,'urls')
 
-
+# qi leggiamo il file prodotto
+# da @setup.py che contiene gli url delle pagine
+# da scaricare
 with open(DATA_FILE,'r') as f:
     urls = f.read().split("\n")
     f.close()
+
+#queste variabili servono solo come indicatori e
+# per dare un feedback all' utilizzatore
 i = j = k = 0
-#pages = []
+
+# paths contiene i path ai file delle pagine web
 paths = []
+
+# qui si scaricano le pagine web
+# solo e non precedentemente scaricate
+# tra un download e l' altro si aspetta 1 secondo
 for url in urls:
     filename = re.sub('[^a-zA-Z0-9]+', '-', url)
     download_path = os.path.join(PAGES_DIR, filename)
     if not os.path.exists(download_path):
         try:
             urllib.urlretrieve(url, download_path)
-            #req = urllib2.Request(url)
-            #esponse = urllib2.urlopen(req)
-           # page = response.read()
-#            pages.append(page)
             i += 1
-           # time.sleep(1)
-         #   with io.open(os.path.join(PAGES_DIR, filename), mode='wb') as fd:
-                #fd.write(page)
+            time.sleep(1)
         except (IOError,ValueError) as e:
             print 'something is going wrong'
             j += 1
-        print str(i) + ' -- ' + str(j)
     else:
         print 'already present page ' + download_path
         k += 1
@@ -53,6 +60,8 @@ print str(i) + ' pages downloaded'
 print str(k) + ' pages already stored'
 print str(j) + ' errors occurred'
 
+# qui si salvano i path ai vari file, in modo simile a quanto fatto
+# per gli urls
 with open(os.path.join(URLS_DIR,'files'),mode='wb') as f:
     for path in paths:
         f.write(path)

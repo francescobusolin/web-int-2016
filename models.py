@@ -46,13 +46,6 @@ with io.open(os.path.join(OTHER_DIR,'stopwords_eng.txt'),encoding='utf-8') as f:
 stop = content.split('\n')
 
 texts = [[word for word in text if word not in stop and occurences[word] > 1]for text in texts]
-lemma = []
-for news in texts:
-    news_lemma = []
-    for word in news:
-        news_lemma.append(gensim.utils.lemmatize(word))
-    print news_lemma
-    lemma.append(news_lemma)
 
 lexicon = gensim.corpora.Dictionary(texts)
 print 'built lexicon'
@@ -61,9 +54,8 @@ corpus = [lexicon.doc2bow(text) for text in texts]
 print ' built corpus'
 
 #TF-IDF analysis
-indexes = range(20,40,1)
+indexes = range(15,35,1)
 tfidf = gensim.models.TfidfModel(corpus)
 for i in indexes:
-    print ' for document %d we recommend: \n'
-    print recommendations(lexicon,tfidf[corpus],tfidf[corpus[i]],5)
-
+    print ('\nfor document %d we recommend:' % i)
+    print recommendations(lexicon,tfidf[corpus],tfidf[corpus[i]],20)
