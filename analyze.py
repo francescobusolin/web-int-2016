@@ -2,7 +2,7 @@ import os
 import re
 import io
 import collections
-import csv
+import unicodecsv as csv
 import gensim
 # SCRIPT 4 / 5
 # -- INTRODUZIONE --
@@ -13,6 +13,8 @@ import gensim
 #   - common_lemma.csv contiene i conteggi dei lemmi
 
 # NB: viene supposto che in precedenza siano stati eseguiti gli script @setup.py, @collect.py e extract.py
+# NB: per il corretto funzionamento e' necessaria la libreria unicodecsv trovabile:
+# https://github.com/jdunck/python-unicodecsv
 OTHER_DIR = 'other'
 INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
 ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
@@ -52,7 +54,7 @@ most_common_overall = occurences.most_common(500)
 print 'building common terms table...'
 file_ovr = 'common_overall.csv'
 if not os.path.isfile(os.path.join(OTHER_DIR,file_ovr)):
-    with open(os.path.join(OTHER_DIR,file),mode='w') as f:
+    with open(os.path.join(OTHER_DIR,file_ovr),mode='w') as f:
             csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
             csv_writer.writerow(['word','count'])
             for key, count in most_common_overall:
@@ -74,7 +76,7 @@ for news in texts:
         news_lemma.append(gensim.utils.lemmatize(word))
     lemma.append(news_lemma)
 print 'counting lemmas...'
-# contiamo i lemmi e li salviamo nel file common_lemma.csv
+# contiamo i lemmi , li contiamo e salviamo i conteggi nel file common_lemma.csv
 lemma_counter = collections.Counter()
 for row in lemma:
     for cell in row:
@@ -83,7 +85,7 @@ most_common_lemmatized = lemma_counter.most_common(500)
 print 'building lemmas table...'
 file_lemma = 'common_lemma.csv'
 if not os.path.isfile(os.path.join(OTHER_DIR,file_lemma)):
-    with open(os.path.join(OTHER_DIR,file),mode='w') as f:
+    with open(os.path.join(OTHER_DIR,file_lemma),mode='w') as f:
         csv_writer = csv.writer(f,dialect='excel',delimiter = ',',encoding='utf-8')
         csv_writer.writerow(['word','count'])
         for key, count in most_common_lemmatized:

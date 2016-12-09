@@ -1,7 +1,8 @@
 import os
 import re
 import BeautifulSoup
-import io
+import codecs
+import HTMLParser
 # SCRIPT 3 / 5
 # -- INTRODUZIONE --
 #   In questo script vengono estratte e memorizzate le notizie
@@ -19,10 +20,9 @@ NEWS_DIR = os.path.join(REPO_DIR,'news')
 FILES = os.path.join(URLS_DIR,'files')
 REMOTE_BASE = 'http://www.telegraph.co.uk'
 
-documents = []
 i = 0
 files = []
-
+h = HTMLParser.HTMLParser()
 with open(FILES,mode='r') as f:
     files = f.read().split('\n')
 
@@ -39,15 +39,12 @@ for filename in files:
     for div in document_list:
         document = document + div.text + '\n'
     print 'extracted news ' + str(i)
-    documents.append(document)
-    i += 1
+    if len(document_list) >0:
+        try:
+            filename = re.sub('[^a-zA-Z0-9]+', '-', filename)
+            with codecs.open(os.path.join(NEWS_DIR,filename),mode='wb',encoding='utf-8') as fd:
+                fd.write( h.unescape(document))
+                i += 1
+        except IOError as e:
+            print 'failed to write news ' + filename
 print 'total news extracted: ' + str(i) + '\n'
-
-i = 0
-for doc in documents:
-    filename = 'NEWS_' + str(i)
-    with io.open(os.path.join(NEWS_DIR,filename),mode='w',encoding='utf-8') as f:
-        f.write(doc)
-        print 'saved news ' + str(i)
-    i += 1
-print '\ntotal saved news ' + str(i)

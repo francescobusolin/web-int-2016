@@ -35,7 +35,7 @@ def recommendations(lexicon, model, document, n=10):
     index = gensim.similarities.MatrixSimilarity(model, num_features=len(lexicon)) # costruiamo la matrice di similarita'
     scores = index[document] # prendiamo i valori del documento in esame
     top = sorted(enumerate(scores), key=lambda (k, v): v, reverse=True) # ordiniamo rispetto alla similarita'
-    top = [t for t in top if t[1] < 0.99999988] # non considero i duplicati
+    top = [t for t in top if t[1] < 0.99999988] # non considero i documenti perfettamente uguali
     return top[:n] # ritorniamo i primi n documenti
 #vengono lette le notizie
 documents = []
@@ -56,7 +56,7 @@ stop = content.split('\n')
 texts = [[word for word in text if word not in stop and occurences[word] > 1]for text in texts]
 
 #Ora viene usata la libreria gensim per analizzare il testo e costruire
-# un Content Based Recomender
+# un Content Based Recommender
 
 # viene costruito il lessico
 lexicon = gensim.corpora.Dictionary(texts)
@@ -80,9 +80,12 @@ for i in indexes: # diamo per ciascun documento i primi 5 documenti piu' simili
 
 print '-----------------------------------------------------------'
 # LSI analysis
-k1 = 10
-k2 = 40
-k3 = 100
+# l'ananili LSI e' del tutto analoga a quella TF-IDF
+# gli unici cambiamenti sono il modello usato
+# ed il fatto che viene ripetuta 3 volte con 3 valori di k distinti
+k1 = 5
+k2 = 50
+k3 = 200
 print 'LSI analysis for k = %d' % k1
 indexes = range(0,20,1)
 lsi = gensim.models.LsiModel(corpus,id2word=lexicon,num_topics=k1)

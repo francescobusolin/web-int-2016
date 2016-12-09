@@ -373,7 +373,7 @@ $(document).ready(function() {
 </script>
 <script type="text/javascript">
   var gs_channels="default";
-  // Last-updated: 2016-11-24 13:06:17.174
+  // Last-updated: 2016-11-28 07:02:51.681
 gs_channels="marks_and_spencer,trv_hotels,premium_resorts";
 
 </script>
@@ -626,7 +626,7 @@ gs_channels="marks_and_spencer,trv_hotels,premium_resorts";
 				<div id="tmglTopRight" class="tmgTopBarDate">
 					<div id="tmglLasUpdatedDateFeed">
 	<p>
-		Thursday 24 November 2016</p>
+		Monday 28 November 2016</p>
 </div>
 
 </div>
@@ -2307,7 +2307,7 @@ var tmgHeaderTimerEnd=Date.now();
 <div id="footerinfo">
 			<p>&copy; Copyright of Telegraph Media Group Limited 2016</p>
 			<p><a target="_parent" href="http://www.telegraph.co.uk/termsandconditions">Terms and Conditions</a> </p>
-			<p><a target="_parent" href="/archive/2016-11-24.html">Today's News</a></p>
+			<p><a target="_parent" href="/archive/2016-11-28.html">Today's News</a></p>
 			<p ><a target="_parent" href="http://www.telegraph.co.uk/archive/">Archive</a></p>
 					<p ><a target="_parent" href="http://www.telegraph.co.uk/topics/about-us/style-book/">Style Book</a></p>
 					<p class="last"><a target="_parent" href="/news/weather/4142730/Weather-forecast.html">Weather Forecast</a></p>

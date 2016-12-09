@@ -40,21 +40,23 @@ paths = []
 # qui si scaricano le pagine web
 # solo e non precedentemente scaricate
 # tra un download e l' altro si aspetta 1 secondo
-for url in urls:
+for url in urls[10000:12000]:
     filename = re.sub('[^a-zA-Z0-9]+', '-', url)
     download_path = os.path.join(PAGES_DIR, filename)
     if not os.path.exists(download_path):
         try:
             urllib.urlretrieve(url, download_path)
             i += 1
-            time.sleep(1)
+            #time.sleep(1)
+            print download_path
+            paths.append(download_path)
         except (IOError,ValueError) as e:
             print 'something is going wrong'
             j += 1
     else:
         print 'already present page ' + download_path
         k += 1
-    paths.append(download_path)
+
 
 print str(i) + ' pages downloaded'
 print str(k) + ' pages already stored'
@@ -62,7 +64,7 @@ print str(j) + ' errors occurred'
 
 # qui si salvano i path ai vari file, in modo simile a quanto fatto
 # per gli urls
-with open(os.path.join(URLS_DIR,'files'),mode='wb') as f:
+with open(os.path.join(URLS_DIR,'files'),mode='ab') as f:
     for path in paths:
         f.write(path)
         f.write('\n')
