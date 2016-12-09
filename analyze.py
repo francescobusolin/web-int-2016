@@ -6,7 +6,7 @@ import csv
 import gensim
 # SCRIPT 4 / 5
 # -- INTRODUZIONE --
-#   In questo script analizzate le notizie,
+#   In questo script vengono analizzate le notizie,
 #   vengono prodotti due file csv i quali rappresenano
 #   i conteggi delle parole.
 #   - common_overall.csv contiene i conteggi delle parole inalterate
