@@ -3,6 +3,7 @@ import re
 import io
 import collections
 import gensim
+
 # SCRIPT 5 / 5
 # -- INTRODUZIONE --
 #   In questo script vengono usati due modelli diversi
@@ -13,30 +14,26 @@ import gensim
 
 # NB: viene supposto che in precedenza siano stati eseguiti gli script @setup.py, @collect.py e extract.py
 OTHER_DIR = 'other'
-INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
-ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
-COMPRESSED_URLS = os.path.join(INTERMEDIATE_DIR,'compressed')
-
 REPO_DIR = 'repo'
-PAGES_DIR = os.path.join(REPO_DIR,'pages')
-URLS_DIR = os.path.join(REPO_DIR,'urls')
 NEWS_DIR = os.path.join(REPO_DIR,'news')
 
-REMOTE_BASE = 'http://www.telegraph.co.uk'
-
+# questa funzione serve per dividere il testo in parole e eliminare tutti i caratteri
+# non significativi (punteggiatura, caratteri particolari)
 def tokenize(document):
     document = document.lower()
     document = re.sub('[!"#$%&\'()*+,-./:;<=>?@\[\\\\\]^_`{|}~]', ' ', document)
     return document.split()
-# facendo delle prove e' risultato che ci sono dei duplicati nelle notize quindi
-# in recommendation vengono filtrate le notizie uguali al documento
-# ovvero similarita' superione a 0.99999988
+
+# questa funzione serve per ricavare, dato un lessico, un modello, un documento, e la numerosita'
+# la lista degli n articoli piu' simili al documento dato come input
 def recommendations(lexicon, model, document, n=10):
     index = gensim.similarities.MatrixSimilarity(model, num_features=len(lexicon)) # costruiamo la matrice di similarita'
     scores = index[document] # prendiamo i valori del documento in esame
     top = sorted(enumerate(scores), key=lambda (k, v): v, reverse=True) # ordiniamo rispetto alla similarita'
-    top = [t for t in top if t[1] < 0.99999988] # non considero i documenti perfettamente uguali
-    return top[:n] # ritorniamo i primi n documenti
+    return top[1:n] # ritorniamo i primi n documenti tranne il primo che ha similarita'
+    # pari a 1 perche' e' document stesso
+
+
 #vengono lette le notizie
 documents = []
 for filename  in os.listdir(NEWS_DIR):
@@ -44,14 +41,18 @@ for filename  in os.listdir(NEWS_DIR):
         document = f.read()
         documents.append(document)
         f.close()
+
 # come in precedenza le notizie vengono suddivise in token
 texts = [tokenize(document) for document in documents]
+# vengono contate le occorrenze dei token
 occurences = collections.Counter()
 for text in texts:
     occurences.update(text)
+# vengono lette le stopwords
 with io.open(os.path.join(OTHER_DIR,'stopwords_eng.txt'),encoding='utf-8') as f:
     content = f.read()
 stop = content.split('\n')
+
 # vengono eliminate le stopwords e le parole con frequenza unitaria
 texts = [[word for word in text if word not in stop and occurences[word] > 1]for text in texts]
 
@@ -79,6 +80,7 @@ for i in indexes: # diamo per ciascun documento i primi 5 documenti piu' simili
     print recommendations(lexicon,tfidf[corpus],tfidf[corpus[i]],5)
 
 print '-----------------------------------------------------------'
+
 # LSI analysis
 # l'ananili LSI e' del tutto analoga a quella TF-IDF
 # gli unici cambiamenti sono il modello usato
@@ -86,12 +88,14 @@ print '-----------------------------------------------------------'
 k1 = 5
 k2 = 50
 k3 = 200
+
 print 'LSI analysis for k = %d' % k1
 indexes = range(0,20,1)
 lsi = gensim.models.LsiModel(corpus,id2word=lexicon,num_topics=k1)
 for i in indexes:
     print ('\nfor document %d we recommend:' % i)
     print recommendations(lexicon,lsi[corpus],lsi[corpus[i]],5)
+
 print '--------------------------------------------------------'
 
 print 'LSI analysis for k = %d' % k2
@@ -101,8 +105,11 @@ for i in indexes:
     print recommendations(lexicon,lsi[corpus],lsi[corpus[i]],5)
 
 print '---------------------------------------------------------'
+
 print 'LSI analysis for k = %d' % k3
 lsi = gensim.models.LsiModel(corpus,id2word=lexicon,num_topics=k3)
 for i in indexes:
     print ('\nfor document %d we recommend:' % i)
     print recommendations(lexicon,lsi[corpus],lsi[corpus[i]],5)
+
+# -- FINE SCRIPT --

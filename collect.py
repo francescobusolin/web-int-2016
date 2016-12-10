@@ -10,17 +10,9 @@ import re
 # NB: viene supposto che in precedenza sia stato eseguito lo script @setup.py
 
 OTHER_DIR = 'other'
-INTERMEDIATE_DIR = os.path.join(OTHER_DIR,'inter')
-ARCHIVE_DIR = os.path.join(INTERMEDIATE_DIR,'archive')
-COMPRESSED_URLS = os.path.join(INTERMEDIATE_DIR,'compressed')
-
 REPO_DIR = 'repo'
 PAGES_DIR = os.path.join(REPO_DIR,'pages')
 URLS_DIR = os.path.join(REPO_DIR,'urls')
-NEWS_DIR = os.path.join(REPO_DIR,'news')
-
-REMOTE_BASE = 'http://www.telegraph.co.uk'
-
 DATA_FILE = os.path.join(URLS_DIR,'urls')
 
 # qi leggiamo il file prodotto
@@ -47,9 +39,10 @@ for url in urls[10000:12000]:
         try:
             urllib.urlretrieve(url, download_path)
             i += 1
-            #time.sleep(1)
+            time.sleep(1)
             print download_path
-            paths.append(download_path)
+            paths.append(download_path) # salvo i path solo delle news che scarico perhe' se non scarico una pagina
+            # allora il suo path e' gia' memorizzato o la pagina ha avuto errori
         except (IOError,ValueError) as e:
             print 'something is going wrong'
             j += 1
@@ -64,7 +57,10 @@ print str(j) + ' errors occurred'
 
 # qui si salvano i path ai vari file, in modo simile a quanto fatto
 # per gli urls
+# i path nuovi vengono accodati al file
 with open(os.path.join(URLS_DIR,'files'),mode='ab') as f:
     for path in paths:
         f.write(path)
         f.write('\n')
+
+# -- FINE SCRIPT --

@@ -1,5 +1,5 @@
 import urllib
-import os.path
+import os
 import re
 import time
 import BeautifulSoup
@@ -80,6 +80,7 @@ print 'Reading Errors: ' + str(j)
 
 i = 0
 news_links = []
+
 # qui vengono estratti gli url alle pagine delle notizie
 # dall 'analisi della struttura delle pagine si deduce che
 # i link utili sono contenuti in un campo 'href'
@@ -98,6 +99,7 @@ for line in os.listdir(ARCHIVE_DIR):
                 news_links.append(div['href'])
                 i  = i + 1
                 #print str(i)
+
 print 'wrote all links into the file ' + URLS_DIR + '/urls'
 print 'wrote ' + str(i) + ' links'
 
