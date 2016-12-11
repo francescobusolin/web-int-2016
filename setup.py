@@ -1,5 +1,5 @@
 import urllib
-import os.path
+import os
 import re
 import time
 import BeautifulSoup
@@ -75,37 +75,33 @@ for url in urls:
             j += 1
         print "Done single download " + str(i)
     i += 1
+
 print 'Reading Errors: ' + str(j)
 
-
+i = 0
 news_links = []
+
 # qui vengono estratti gli url alle pagine delle notizie
 # dall 'analisi della struttura delle pagine si deduce che
 # i link utili sono contenuti in un campo 'href'
 #  e hanno la forma: '/news/<titolo>.html'
 for line in os.listdir(ARCHIVE_DIR):
-    with open(os.path.join(ARCHIVE_DIR, filename)) as f:
+    with open(os.path.join(ARCHIVE_DIR, line)) as f:
         page = f.read()
         f.close()
     soup = BeautifulSoup.BeautifulSoup(page)
     #print page
-    hrefs = []
-    links =  soup.findAll('a',href = True)
-    for link in links:
-        hrefs.append(link['href'])
-    for href in hrefs:
-        str(href)
-        if(href.startswith('/news')):
-            news_links.append(REMOTE_BASE + href)
+    divs = soup.findAll('a',href = True )
+    with open(os.path.join(URLS_DIR, 'urls'), mode='ab') as f:
+        for div in divs:
+            if div['href'].startswith('/') and len(div['href']) > 5 and div['href'] not in news_links:
+                f.write(REMOTE_BASE + div['href']+ '\n')
+                news_links.append(div['href'])
+                i  = i + 1
+                #print str(i)
 
-print 'collected ' + str(len(news_links)) + ' links'
-# salviamo gli url in un file, usato successivamente
-f = open(os.path.join(URLS_DIR + '/urls'), 'w')
-for url in news_links:
-    f.write(url+'\n')
-
-f.close()
 print 'wrote all links into the file ' + URLS_DIR + '/urls'
+print 'wrote ' + str(i) + ' links'
 
 # -- FINE SCRIPT --
 
